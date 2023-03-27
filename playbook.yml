@@ -1,0 +1,14 @@
+---
+- name: Install packages from YAML file
+  hosts: all
+  become: yes
+  gather_facts: no
+  roles:
+    - role: install_packages
+  vars_files:
+    - package_list.yml
+  vars:
+    section_list:
+      - admin
+      - devel
+    packages_to_install: "{{ packages }}"

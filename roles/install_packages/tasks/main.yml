@@ -1,0 +1,24 @@
+---
+
+- name: Update apt cache
+  apt:
+    update_cache: true
+    cache_valid_time: 3600
+  register: apt_update_result
+  ignore_errors: yes
+
+- name: Check for apt update timeout
+  ansible.builtin.fail:
+    msg: "Apt update failed. Timeout reached."
+  when: apt_update_result.failed and 'Timeout' in apt_update_result.msg
+
+- name: Install packages from each section
+  include_tasks: install_packages.yml
+  loop: "{{ packages_to_install | dict2items }}"
+  loop_control:
+    loop_var: section
+  vars:
+    section_name: "{{ section.key }}"
+    section_content: "{{ section.value }}"
+  #when: "section_name in selected_sections"
+

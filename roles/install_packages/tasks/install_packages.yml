@@ -1,0 +1,14 @@
+---
+
+- name: Iterate over section
+  #debug:
+    #msg: "Installing: {{ section_name }} / {{ package_name }} : {{ package_info.description }}"
+  apt:
+    name: "{{ package_name }}"
+    state: present
+  loop: "{{ section_content | dict2items }}"
+  loop_control:
+    loop_var: package
+  vars:
+    package_name: "{{ package.key }}"
+    package_info: "{{ package.value }}"

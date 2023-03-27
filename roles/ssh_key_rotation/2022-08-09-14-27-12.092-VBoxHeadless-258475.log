@@ -1,0 +1,12 @@
+Log created: 2022-08-09T14:27:12.928826000Z
+Process ID:  258475 (0x3f1ab)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: ssh_key_rotation_octo_1659569968330_13839
+Arg[3]: --startvm
+Arg[4]: b7867ee0-9097-4dbb-be94-04395ad1c44c
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

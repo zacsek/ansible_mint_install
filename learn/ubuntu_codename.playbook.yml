@@ -1,0 +1,18 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: True
+
+  tasks:
+    - name: parse os-release
+      set_fact:
+        ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
+
+    - name: print all
+      debug: msg={{ item }}
+      with_items:
+        - "{{ ansible_facts.distribution }}"
+        - "{{ ansible_facts.distribution_release }}"
+        - "{{ ansible_facts.distribution_version }}"
+        - "{{ ubuntu_codename }}"
+

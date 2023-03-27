@@ -1,0 +1,1195 @@
+---
+admin:
+  amd64-microcode:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Processor microcode firmware for AMD CPUs
+  ansible:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Configuration management, deployment, and task execution system
+  apt-transport-https:
+    category: admin
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: transitional package for https support
+  cockpit:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Web Console for Linux servers
+  containerd:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: daemon to control runC
+  debootstrap:
+    category: admin
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: Bootstrap a basic Debian system
+  docker-compose:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: define and run multi-container Docker applications with YAML
+  docker-containerd:
+    category: admin
+    origin: "(installed locally)"
+    description: daemon to control runC (Docker's version)
+  docker.io:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Linux container runtime
+  grub-pc-bin:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+  hwinfo:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Hardware identification system
+  intel-microcode:
+    category: admin
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Processor microcode firmware for Intel CPUs
+  iotop:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: simple top-like I/O monitor
+  liblxc-common:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Linux Containers userspace tools (common tools)
+  libpam-cgfs:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: PAM module for managing cgroups for LXC
+  lxc:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Transitional package - lxc -> lxc-utils
+  mint-backgrounds-ulyana:
+    category: admin
+    origin: linuxmint:21/vanessa [all]
+    description: The desktop backgrounds for Linux Mint 20 Ulyana
+  nvidia-prime:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Tools to enable NVIDIA's Prime
+  software-properties-common:
+    category: admin
+    origin: linuxmint:21/vanessa [all]
+    description: Transitional package
+  stow:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Organizer for /usr/local software packages
+  systemd-timesyncd:
+    category: admin
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: minimalistic service to synchronize local time with NTP servers
+  tmux:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: terminal multiplexer
+  uidmap:
+    category: admin
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: programs to help use subuids
+  usrmerge:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Convert the system to the merged /usr directories scheme
+  vagrant:
+    category: admin
+    origin: Ubuntu:22.04/jammy [all]
+    description: Tool for building and distributing virtualized development environments
+  webapp-manager:
+    category: admin
+    origin: linuxmint:21/vanessa [all]
+    description: Web Application Manager
+devel:
+  adb:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Android Debug Bridge
+  android-sdk-platform-tools-common:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Tools for interacting with an Android platform - Common files
+  astyle:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Source code indenter for C, C++, Objective-C, C#, and Java
+  autoconf:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: automatic configure script builder
+  automake:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Tool for generating GNU Standards-compliant Makefiles
+  build-essential:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Informational list of build-essential packages
+  cargo:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Rust package manager
+  clang:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: C, C++ and Objective-C compiler (LLVM based), clang binary
+  cloc:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: statistics utility to count lines of code
+  cmake:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: cross-platform, open-source make system
+  cscope:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: interactively examine a C program source
+  docker-runc:
+    category: devel
+    origin: "(installed locally)"
+    description: Open Container Project - runtime (Docker's version)
+  doxygen:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Documentation system for C, C++, Java, Python and other languages
+  doxygen-gui:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GUI configuration tool for doxygen
+  fastboot:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Android fastboot tool
+  g++:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNU C++ compiler
+  g++-7:
+    category: devel
+    origin: "(installed locally)"
+    description: GNU C++ compiler
+  g++-9:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNU C++ compiler
+  gcovr:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Manages the compilation of coverage information from gcov
+  gh:
+    category: devel
+    origin: gh:cli.github.com [amd64]
+    description: GitHub’s official command line tool.
+  git-gui:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: fast, scalable, distributed revision control system (GUI)
+  git-svn:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: fast, scalable, distributed revision control system (svn interoperability)
+  gitk:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: fast, scalable, distributed revision control system (revision tree
+      visualizer)
+  golang:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Go programming language compiler - metapackage
+  libctf-nobfd0:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Compact C Type Format library (runtime, no BFD dependency)
+  libctf0:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Compact C Type Format library (runtime, BFD dependency)
+  libtool:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Generic library support script
+  libvirt0:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: library for interfacing with different virtualization systems
+  linux-headers-generic:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Generic Linux kernel headers
+  nvidia-cuda-gdb:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: NVIDIA CUDA Debugger (GDB)
+  nvidia-profiler:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: NVIDIA Profiler for CUDA and OpenCL
+  nvidia-visual-profiler:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: NVIDIA Visual Profiler for CUDA and OpenCL
+  pmccabe:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: McCabe-style function complexity and line counting for C and C++
+  protobuf-compiler:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: compiler for protocol buffer definition files
+  rake:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: ruby make-like utility
+  redis:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Persistent key-value database with network interface (metapackage)
+  ruby-dev:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Header files for compiling extension modules for Ruby (default version)
+  runc:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Open Container Project - runtime
+  rust-gdb:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: Rust debugger (gdb)
+  rustc:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Rust systems programming language
+  snapd:
+    category: devel
+    origin: "(installed locally)"
+    description: Daemon and tooling that enable snap packages
+  subversion:
+    category: devel
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Advanced version control system
+  valgrind:
+    category: devel
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: instrumentation framework for building dynamic analysis tools
+  yamllint:
+    category: devel
+    origin: Ubuntu:22.04/jammy [all]
+    description: Linter for YAML files
+editors:
+  exuberant-ctags:
+    category: editors
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: build tag file indexes of source code definitions
+  libreoffice:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: office productivity suite (metapackage)
+  libreoffice-style-colibre:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: office productivity suite -- colibre symbol style
+  libreoffice-style-yaru:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: office productivity suite -- Yaru symbol style
+  lyx:
+    category: editors
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: document processor
+  neovim:
+    category: editors
+    origin: Neovim Unstable:22.04/jammy [amd64]
+    description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+  neovim-runtime:
+    category: editors
+    origin: Neovim Unstable:22.04/jammy [all]
+    description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+      (runtime files)
+  vim:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Vi IMproved - enhanced vi editor
+  vim-doc:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: Vi IMproved - HTML documentation
+  vim-gtk3:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Vi IMproved - enhanced vi editor - with GTK3 GUI
+  vim-gui-common:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: Vi IMproved - Common GUI files
+  vim-runtime:
+    category: editors
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: Vi IMproved - Runtime files
+  vim-scripts:
+    category: editors
+    origin: Ubuntu:22.04/jammy [all]
+    description: plugins for vim, adding bells and whistles
+education:
+  scratch:
+    category: education
+    origin: Ubuntu:22.04/jammy [all]
+    description: easy to use programming environment for ages 8 and up
+electronics:
+  scantool:
+    category: electronics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: OBD-II vehicle diagnostic scanner
+  sigrok:
+    category: electronics
+    origin: Ubuntu:22.04/jammy [all]
+    description: Logic analyzer and protocol decoder software suite (metapackage)
+fonts:
+  fonts-dejavu-extra:
+    category: fonts
+    origin: Ubuntu:22.04/jammy [all]
+    description: Vera font family derivate with additional characters (extra variants)
+  fonts-ipafont-gothic:
+    category: fonts
+    origin: Ubuntu:22.04/jammy [all]
+    description: Japanese OpenType font set, IPA Gothic and IPA P Gothic Fonts
+  fonts-wine:
+    category: fonts
+    origin: Ubuntu:22.04/jammy [all]
+    description: Windows API implementation - fonts
+games:
+  cowsay:
+    category: games
+    origin: Ubuntu:22.04/jammy [all]
+    description: configurable talking cow
+  lutris:
+    category: games
+    origin: Lutris stable:22.04/jammy [all]
+    description: video game preservation platform
+  steam-launcher:
+    category: games
+    origin: Steam launcher:repo.steampowered.com [all]
+    description: Launcher for the Steam software distribution service
+  steam-libs-amd64:
+    category: games
+    origin: Steam launcher:repo.steampowered.com [amd64]
+    description: Steam libraries metapackage
+  steam-libs-i386:i386:
+    category: games
+    origin: Steam launcher:repo.steampowered.com [i386]
+    description: Steam libraries metapackage
+gnome:
+  cheese:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: tool to take pictures and videos from your webcam
+  gnome-remote-desktop:
+    category: gnome
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: Remote desktop daemon for GNOME using PipeWire
+  gnome-shell:
+    category: gnome
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: graphical shell for the GNOME desktop
+  gnome-shell-common:
+    category: gnome
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: common files for the GNOME graphical shell
+  gnome-shell-extension-appindicator:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [all]
+    description: AppIndicator, KStatusNotifierItem and tray support for GNOME Shell
+  gnome-shell-pomodoro:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNOME Shell time-management app
+  gparted:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNOME partition editor
+  meld:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [all]
+    description: graphical tool to diff and merge files
+  nautilus-dropbox:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Dropbox integration for Nautilus
+  nemo-image-converter:
+    category: gnome
+    origin: linuxmint:21/vanessa [amd64]
+    description: nemo extension to mass resize or rotate images
+  tilix:
+    category: gnome
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Tiling terminal emulator for GNOME
+graphics:
+  darktable:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: virtual lighttable and darkroom for photographers
+  djvulibre-bin:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Utilities for the DjVu image format
+  font-manager:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: font management application for the GNOME desktop
+  guvcview:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GTK+ base UVC Viewer
+  handbrake:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: versatile DVD ripper and video transcoder (GTK+ GUI)
+  imagemagick:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: image manipulation programs -- binaries
+  imagemagick-6.q16:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: image manipulation programs -- quantum depth Q16
+  mkvtoolnix:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Set of command-line tools to work with Matroska files
+  okular:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: universal document viewer
+  pdfarranger:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [all]
+    description: merge, split and re-arrange pages from PDF documents
+  plantuml:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [all]
+    description: text-to-UML converter
+  povray:
+    category: graphics
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Persistence of vision raytracer (3D renderer)
+interpreters:
+  cpp-9:
+    category: interpreters
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNU C preprocessor
+  gjs:
+    category: interpreters
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: Mozilla-based javascript bindings for the GNOME platform (cli tool)
+  ruby:
+    category: interpreters
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Interpreter of object-oriented scripting language Ruby (default version)
+  squeak-vm:
+    category: interpreters
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: virtual machine for Smalltalk
+java:
+  ant:
+    category: java
+    origin: Ubuntu:22.04/jammy [all]
+    description: Java based build tool like make
+  libjuh-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: transitional package for LibreOffice UNO runtime environment
+  libjurt-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: transitional package for LibreOffice UNO runtime environment
+  liblibreoffice-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: LibreOffice UNO runtime environment -- Java library
+  libreoffice-script-provider-bsh:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: BeanShell script support provider for LibreOffice scripting framework
+  libridl-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: transitional package for LibreOffice UNO runtime environment
+  libunoil-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: transitional package for LibreOffice UNO runtime environment
+  libunoloader-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: LibreOffice UNO runtime environment -- (Java) UNO loader
+  maven:
+    category: java
+    origin: Ubuntu:22.04/jammy [all]
+    description: Java software project management and comprehension tool
+  openjdk-13-jdk:
+    category: java
+    origin: "(installed locally)"
+    description: OpenJDK Development Kit (JDK)
+  openjdk-16-jdk:
+    category: java
+    origin: "(installed locally)"
+    description: OpenJDK Development Kit (JDK)
+  openjdk-8-jdk:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: OpenJDK Development Kit (JDK)
+  ure-java:
+    category: java
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: LibreOffice UNO runtime environment -- Java support
+math:
+  gnuplot:
+    category: math
+    origin: Ubuntu:22.04/jammy [all]
+    description: Command-line driven interactive plotting program.
+  libreoffice-nlpsolver:
+    category: math
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: '"Solver for Nonlinear Programming" extension for LibreOffice'
+  octave:
+    category: math
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GNU Octave language for numerical computations
+  octave-control:
+    category: math
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: computer-aided control system design (CACSD) for Octave
+  octave-financial:
+    category: math
+    origin: Ubuntu:22.04/jammy [all]
+    description: financial package for Octave
+  octave-general:
+    category: math
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: provide extra general functions for Octave
+  octave-image:
+    category: math
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: image manipulation for Octave
+misc:
+  ansible-lint:
+    category: misc
+    origin: Ubuntu:22.04/jammy [all]
+    description: lint tool for Ansible playbooks
+  bulky:
+    category: misc
+    origin: linuxmint:21/vanessa [all]
+    description: Bulk Renamer
+  entr:
+    category: misc
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Run arbitrary commands when files change
+  googler:
+    category: misc
+    origin: Ubuntu:22.04/jammy [all]
+    description: Power tool to Google (Web & News) and Google Site Search from the
+      terminal
+  inotify-tools:
+    category: misc
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: command-line programs providing a simple interface to inotify
+  libgtk-4-bin:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: programs for the GTK graphical user interface library
+  libreoffice-report-builder:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: LibreOffice component for building database reports
+  libreoffice-report-builder-bin:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: LibreOffice component for building database reports -- libraries
+  libreoffice-sdbc-mysql:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: MariaDB/MySQL SDBC driver for LibreOffice
+  libreoffice-sdbc-postgresql:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: PostgreSQL SDBC driver for LibreOffice
+  libreoffice-wiki-publisher:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: LibreOffice extension for working with MediaWiki articles
+  nnn:
+    category: misc
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Free, fast, friendly file manager
+  noson-app:
+    category: misc
+    origin: noson-app:22.04/jammy [amd64]
+    description: SONOS controller for Linux
+  openrazer-daemon:
+    category: misc
+    origin: Stable Branch:22.04/jammy [all]
+    description: OpenRazer peripheral drivers (daemon)
+  openrazer-meta:
+    category: misc
+    origin: Stable Branch:22.04/jammy [all]
+    description: OpenRazer peripheral drivers (metapackage)
+  osquery:
+    category: misc
+    origin: "(installed locally)"
+    description: osquery is an operating system instrumentation toolchain.
+  ovmf:
+    category: misc
+    origin: Ubuntu:22.04/jammy [all]
+    description: UEFI firmware for 64-bit x86 virtual machines
+  qemu-system-common:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: QEMU full system emulation binaries (common files)
+  qemu-system-x86:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: QEMU full system emulation binaries (x86)
+  qemu-utils:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: QEMU utilities
+  slack-desktop:
+    category: misc
+    origin: slack:1/jessie [amd64]
+    description: Slack Desktop
+  sqlite3:
+    category: misc
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Command line interface for SQLite 3
+  syncthing:
+    category: misc
+    origin: Syncthing:syncthing [amd64]
+    description: Open Source Continuous File Synchronization
+  thingy:
+    category: misc
+    origin: linuxmint:21/vanessa [all]
+    description: Document Manager
+  virtualbox:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: x86 virtualization solution - base binaries
+  virtualbox-guest-additions-iso:
+    category: misc
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: guest additions iso image for VirtualBox
+net:
+  autossh:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Automatically restart SSH sessions and tunnels
+  bind9-dnsutils:
+    category: net
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Clients provided with BIND 9
+  etherwake:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: tool to send magic Wake-on-LAN packets
+  filezilla:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Full-featured graphical FTP/FTPS/SFTP client
+  geoip-bin:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: IP lookup command line tools that use the GeoIP library
+  iftop:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: displays bandwidth usage information on an network interface
+  ipcalc:
+    category: net
+    origin: Ubuntu:22.04/jammy [all]
+    description: parameter calculator for IPv4 addresses
+  iperf:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Internet Protocol bandwidth measuring tool
+  iperf3:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Internet Protocol bandwidth measuring tool
+  iptraf-ng:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Next Generation Interactive Colorful IP LAN Monitor
+  libnetplan0:
+    category: net
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: YAML network configuration abstraction runtime library
+  nethogs:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Net top tool grouping bandwidth per process
+  nload:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: realtime console network usage monitor
+  nmap:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: The Network Mapper
+  samba:
+    category: net
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: SMB/CIFS file, print, and login server for Unix
+  samba-vfs-modules:
+    category: net
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Samba Virtual FileSystem plugins
+  teamviewer:
+    category: net
+    origin: TeamViewer:stable [amd64]
+    description: Remote control and meeting solution.
+  traceroute:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Traces the route taken by packets over an IPv4/IPv6 network
+  transmission:
+    category: net
+    origin: Ubuntu:22.04/jammy [all]
+    description: lightweight BitTorrent client
+  transmission-remote-gtk:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: GTK+ interface for the Transmission BitTorrent daemon
+  tshark:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: network traffic analyzer - console version
+  viber:
+    category: net
+    origin: "(installed locally)"
+    description: Free Text & Calls.
+  vnstat:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: console-based network traffic monitor
+  whois:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: intelligent WHOIS client
+  wireshark:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: network traffic analyzer - meta-package
+  wireshark-qt:
+    category: net
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: network traffic analyzer - Qt version
+shells:
+  zsh:
+    category: shells
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: shell with lots of features
+  zsh-common:
+    category: shells
+    origin: Ubuntu:22.04/jammy [all]
+    description: architecture independent files for Zsh
+sound:
+  espeak-ng-espeak:
+    category: sound
+    origin: Ubuntu:22.04/jammy [all]
+    description: Multi-lingual software speech synthesizer
+  festival:
+    category: sound
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: General multi-lingual speech synthesis system
+  festvox-us-slt-hts:
+    category: sound
+    origin: Ubuntu:22.04/jammy [all]
+    description: ": US English voice for Festival. 32kHz sample rate, HTS"
+  libttspico-utils:
+    category: sound
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Small Footprint TTS (binaries)
+  paprefs:
+    category: sound
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: PulseAudio Preferences
+  pavucontrol:
+    category: sound
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: PulseAudio Volume Control
+text:
+  calibre:
+    category: text
+    origin: Ubuntu:22.04/jammy [all]
+    description: powerful and easy to use e-book manager
+  colordiff:
+    category: text
+    origin: Ubuntu:22.04/jammy [all]
+    description: tool to colorize 'diff' output
+  dos2unix:
+    category: text
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: convert text file line endings between CRLF and LF
+  figlet:
+    category: text
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Make large character ASCII banners out of ordinary text
+  pandoc:
+    category: text
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: general markup converter
+  pdf2djvu:
+    category: text
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: PDF to DjVu converter
+  pdfsandwich:
+    category: text
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Tool to generate "sandwich" OCR pdf files
+utils:
+  ack:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: grep-like program specifically for large source trees
+  bat:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: cat(1) clone with syntax highlighting and git integration
+  btop:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Modern and colorful command line resource monitor that shows usage
+      and stats
+  ckan:
+    category: utils
+    origin: "(installed locally)"
+    description: KSP-CKAN official client.
+  clamav:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: anti-virus utility for Unix - command-line interface
+  clamav-base:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: anti-virus utility for Unix - base package
+  clamav-freshclam:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: anti-virus utility for Unix - virus database update utility
+  clamtk:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: graphical front-end for ClamAV
+  conky-all:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: highly configurable system monitor (all features enabled)
+  conky-manager:
+    category: utils
+    origin: Conky Manager for Peppermint 9:18.04/bionic [amd64]
+    description: Utility for managing Conky configuration files
+  copyq:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Advanced clipboard manager with editing and scripting features
+  copyq-plugins:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Plugins for CopyQ
+  cpufrequtils:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: utilities to deal with the cpufreq Linux kernel feature
+  dconf-editor:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: simple configuration storage system - graphical editor
+  docker-registry:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Docker toolset to pack, ship, store, and deliver content
+  duf:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Disk Usage/Free Utility
+  duplicity:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: encrypted bandwidth-efficient backup
+  fdupes:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: identifies duplicate files within given directories
+  finalrd:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: final runtime directory for shutdown
+  fwupd-signed:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Linux Firmware Updater EFI signed binary
+  fzf:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: general-purpose command-line fuzzy finder
+  gameconqueror:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: locate and modify a variable in a running process (GUI)
+  glances:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: Curses-based monitoring tool
+  gnupg2:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: GNU privacy guard - a free PGP replacement (dummy transitional package)
+  htop:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: interactive processes viewer
+  jq:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: lightweight and flexible command-line JSON processor
+  keepassxc:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Cross Platform Password Manager
+  kpcli:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: command line interface to KeePassX password manager databases
+  lz4:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Fast LZ compression algorithm library - tool
+  lzop:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: fast compression program
+  mc:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Midnight Commander - a powerful file manager
+  mmv:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Move/Copy/Append/Link multiple files
+  neofetch:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: Shows Linux System Information with Distribution Logo
+  pax:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Portable Archive Interchange (cpio, pax, tar)
+  procinfo:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: tools to display information from /proc and /sys
+  pv:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Shell pipeline element to meter data passing through
+  ripgrep:
+    category: utils
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Recursively searches directories for a regex pattern
+  scanmem:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: locate and modify a variable in a running process
+  screenfetch:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: Bash Screenshot Information Tool
+  sshfs:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: filesystem client based on SSH File Transfer Protocol
+  sshpass:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Non-interactive ssh password authentication
+  tdb-tools:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Trivial Database - bundled binaries
+  trash-cli:
+    category: utils
+    origin: Ubuntu:22.04/jammy [all]
+    description: command line trashcan utility
+  tree:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: displays an indented directory tree, in color
+  v4l-utils:
+    category: utils
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Collection of command line video4linux utilities
+  woeusb:
+    category: utils
+    origin: WebUpd8:20.04/focal [amd64]
+    description: Bootable Windows installation/PE USB storage creator
+  zeal:
+    category: utils
+    origin: Zeal:18.04/bionic [amd64]
+    description: Simple offline API documentation browser
+vcs:
+  git:
+    category: vcs
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: fast, scalable, distributed revision control system
+  git-man:
+    category: vcs
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+    description: fast, scalable, distributed revision control system (manual pages)
+  gitg:
+    category: vcs
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: git repository viewer
+video:
+  ffmpeg:
+    category: video
+    origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+    description: Tools for transcoding, streaming and playing of multimedia files
+  hypnotix:
+    category: video
+    origin: linuxmint:21/vanessa [all]
+    description: IPTV Player
+  mpv:
+    category: video
+    origin: Mpv media player (FFmpeg version):20.04/focal [amd64]
+    description: mplayer/mplayer2 based video player
+  webcamoid:
+    category: video
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: full featured webcam capture application
+  xplayer-thumbnailer:
+    category: video
+    origin: linuxmint:21/vanessa [amd64]
+    description: Media player
+web:
+  chromium-browser:
+    category: web
+    origin: linuxmint:21/vanessa [all]
+    description: Transitional package
+  elinks:
+    category: web
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: advanced text-mode WWW browser
+  google-chrome-beta:
+    category: web
+    origin: Google:1.0/stable [amd64]
+    description: The web browser from Google
+  google-chrome-stable:
+    category: web
+    origin: Google:1.0/stable [amd64]
+    description: The web browser from Google
+  httpie:
+    category: web
+    origin: Ubuntu:22.04/jammy [all]
+    description: CLI, cURL-like tool for humans
+  httrack:
+    category: web
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Copy websites to your computer (Offline browser)
+  libjs-underscore:
+    category: web
+    origin: Ubuntu:22.04/jammy [all]
+    description: JavaScript's functional programming helper library
+  libreoffice-script-provider-js:
+    category: web
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: JavaScript script support provider for LibreOffice scripting framework
+  lynx:
+    category: web
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: classic non-graphical (text-mode) web browser
+  npm:
+    category: web
+    origin: Ubuntu:22.04/jammy [all]
+    description: package manager for Node.js
+x11:
+  i3:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: metapackage (i3 window manager, screen locker, menu, statusbar)
+  intel-gpu-tools:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: tools for debugging the Intel graphics driver
+  libreoffice-style-elementary:
+    category: x11
+    origin: Ubuntu:22.04/jammy-updates [all]
+    description: office productivity suite -- Elementary symbol style
+  mutter:
+    category: x11
+    origin: Ubuntu:22.04/jammy-updates [amd64]
+    description: Example window manager using GNOME's window manager library
+  nvidia-common:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: transitional package for ubuntu-drivers-common
+  nvidia-settings:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: Tool for configuring the NVIDIA graphics driver
+  papirus-icon-theme:
+    category: x11
+    origin: papirus:22.04/jammy [all]
+    description: Papirus Icon Theme
+  plymouth-theme-ubuntu-budgie-logo:
+    category: x11
+    origin: Ubuntu:22.04/jammy [all]
+    description: graphical boot animation and logger - Ubuntu Budgie logo theme
+  plymouth-theme-ubuntu-logo:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: boot animation, logger and I/O multiplexer - ubuntu theme
+  plymouth-x11:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: boot animation, logger and I/O multiplexer - X11 renderer
+  polychromatic:
+    category: x11
+    origin: Stable:22.04/jammy [all]
+    description: RGB lighting utility (metapackage)
+  polychromatic-cli:
+    category: x11
+    origin: Stable:22.04/jammy [all]
+    description: RGB lighting utility (CLI interface)
+  polychromatic-common:
+    category: x11
+    origin: Stable:22.04/jammy [all]
+    description: RGB lighting utility (common files)
+  polychromatic-controller:
+    category: x11
+    origin: Stable:22.04/jammy [all]
+    description: RGB lighting utility (Qt interface)
+  polychromatic-tray-applet:
+    category: x11
+    origin: Stable:22.04/jammy [all]
+    description: RGB lighting utility (Indicator applet)
+  sticky:
+    category: x11
+    origin: linuxmint:21/vanessa [all]
+    description: Sticky Notes app
+  warpinator:
+    category: x11
+    origin: linuxmint:21/vanessa [all]
+    description: Allows simple local network file sharing.
+  xclip:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: command line interface to X selections
+  xterm:
+    category: x11
+    origin: Ubuntu:22.04/jammy [amd64]
+    description: X terminal emulator

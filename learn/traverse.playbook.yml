@@ -1,0 +1,28 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: False
+
+    #vars_files:
+    #- vars/installed_packages.yaml
+  vars:
+    packages:
+      cockpit:
+        category: admin
+        origin: Ubuntu:22.04/jammy [all]
+        description: Web Console for Linux servers
+      containerd:
+        category: admin
+        origin: Ubuntu:22.04/jammy [amd64]
+        description: daemon to control runC
+      debootstrap:
+        category: admin
+        origin: Ubuntu:22.04/jammy-updates [all]
+        description: Bootstrap a basic Debian system
+
+
+  tasks:
+    - name: Enumerate all packages
+      debug: msg="{{ item.key }} / {{ item.value.description }}"
+      loop: "{{ packages | dict2items }}"
+

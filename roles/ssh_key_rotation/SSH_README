@@ -1,0 +1,22 @@
+Link:
+    https://medium.com/rackbrains/automate-ssh-key-rotation-with-ansible-part-1-a99934d2dfc9
+    https://medium.com/rackbrains/automate-ssh-key-rotation-with-ansible-part-2-7c6f599dd086
+    https://www.ssh.com/academy/ssh/agent
+
+
+Vagrant cmds:
+    vagrant up
+    vagrant halt
+    vagrant status
+    vagrant ssh octo
+
+SSH misc:
+    mkdir ssh; cd $_
+    ssh-keygen -t rsa -b 4096 -N "macko" -C "octo@example.com" -f "octo_ssh_key" -q
+    ssh-add $(pwd)/.vagrant/machines/octo/virtualbox/private_key
+    ssh-add -D
+    ssh-add $(pwd)/ssh/octo_ssh_key
+
+SSH copy-id & use:
+    ssh-copy-id -f -i ~/.ssh/octo_ssh_key -o "IdentityFile $(pwd)/.vagrant/machines/octo/virtualbox/private_key" vagrant@192.168.63.12
+    ssh -i ~/.ssh/octo_ssh_key vagrant@192.168.63.12
