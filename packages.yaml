@@ -1,0 +1,3165 @@
+---
+apt:
+  admin:
+    amd64-microcode:
+      section: admin
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.20191218.1ubuntu2
+      dependants_count: '1'
+      description: Processor microcode firmware for AMD CPUs
+    ansible:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.10.7+merged+base+2.10.8+dfsg-1
+      dependants_count: '1'
+      description: Configuration management, deployment, and task execution system
+    apt-transport-https:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 2.4.8
+      dependants_count: '2'
+      description: transitional package for https support
+    cockpit:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Web Console for Linux servers
+    cockpit-bridge:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '5'
+      description: Cockpit bridge server-side component
+    cockpit-networkmanager:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Cockpit user interface for networking
+    cockpit-packagekit:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Cockpit user interface for packages
+    cockpit-storaged:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Cockpit user interface for storage
+    cockpit-system:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '1'
+      description: Cockpit admin interface for a system
+    cockpit-ws:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '1'
+      description: Cockpit Web Service
+    containerd:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1.6.12-0ubuntu1~22.04.1
+      dependants_count: '1'
+      description: daemon to control runC
+    debootstrap:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1.0.126+nmu1ubuntu0.2
+      dependants_count: '0'
+      description: Bootstrap a basic Debian system
+    docker-compose:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.29.2-1
+      dependants_count: '0'
+      description: define and run multi-container Docker applications with YAML
+    docker.io:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 20.10.21-0ubuntu1~22.04.2
+      dependants_count: '0'
+      description: Linux container runtime
+    grub-pc-bin:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 2.06-2ubuntu7.1
+      dependants_count: '1'
+      description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+    hwinfo:
+      section: admin
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 21.72-1
+      dependants_count: '0'
+      description: Hardware identification system
+    intel-microcode:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 3.20230214.0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: Processor microcode firmware for Intel CPUs
+    iotop:
+      section: admin
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.6-24-g733f3f8-1.1build2
+      dependants_count: '0'
+      description: simple top-like I/O monitor
+    liblxc-common:
+      section: admin
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:5.0.0~git2209-g5a7b9ce67-0ubuntu1
+      dependants_count: '1'
+      description: Linux Containers userspace tools (common tools)
+    libpam-cgfs:
+      section: admin
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:5.0.0~git2209-g5a7b9ce67-0ubuntu1
+      dependants_count: '0'
+      description: PAM module for managing cgroups for LXC
+    lxc:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1:5.0.0~git2209-g5a7b9ce67-0ubuntu1
+      dependants_count: '1'
+      description: Transitional package - lxc -> lxc-utils
+    mint-backgrounds-ulyana:
+      section: admin
+      origin: linuxmint:21.1/vera [all]
+      version: '1.1'
+      dependants_count: '0'
+      description: The desktop backgrounds for Linux Mint 20 Ulyana
+    nvidia-prime:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.8.17.1
+      dependants_count: '0'
+      description: Tools to enable NVIDIA's Prime
+    software-properties-common:
+      section: admin
+      origin: linuxmint:21.1/vera [all]
+      version: 2.2.1
+      dependants_count: '0'
+      description: Transitional package
+    stow:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.3.1-1
+      dependants_count: '0'
+      description: Organizer for /usr/local software packages
+    systemd-hwe-hwdb:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 249.11.3
+      dependants_count: '0'
+      description: udev rules for hardware enablement (HWE)
+    systemd-timesyncd:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 249.11-0ubuntu3.7
+      dependants_count: '0'
+      description: minimalistic service to synchronize local time with NTP servers
+    tmux:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 3.2a-4ubuntu0.2
+      dependants_count: '0'
+      description: terminal multiplexer
+    uidmap:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:4.8.1-2ubuntu2.1
+      dependants_count: '0'
+      description: programs to help use subuids
+    usrmerge:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 25ubuntu2
+      dependants_count: '0'
+      description: Convert the system to the merged /usr directories scheme
+    vagrant:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.2.19+dfsg-1ubuntu1
+      dependants_count: '2'
+      description: Tool for building and distributing virtualized development environments
+    webapp-manager:
+      section: admin
+      origin: linuxmint:21.1/vera [all]
+      version: 1.2.8
+      dependants_count: '0'
+      description: Web Application Manager
+  brother: {}
+  devel:
+    adb:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:10.0.0+r36-9
+      dependants_count: '1'
+      description: Android Debug Bridge
+    android-sdk-platform-tools-common:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 28.0.2+6
+      dependants_count: '2'
+      description: Tools for interacting with an Android platform - Common files
+    astyle:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.1-2build1
+      dependants_count: '0'
+      description: Source code indenter for C, C++, Objective-C, C#, and Java
+    autoconf:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.71-2
+      dependants_count: '1'
+      description: automatic configure script builder
+    automake:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1:1.16.5-1.3
+      dependants_count: '0'
+      description: Tool for generating GNU Standards-compliant Makefiles
+    build-essential:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 12.9ubuntu3
+      dependants_count: '2'
+      description: Informational list of build-essential packages
+    cargo:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 0.66.0+ds0ubuntu0.libgit2-0ubuntu0.22.04
+      dependants_count: '0'
+      description: Rust package manager
+    clang:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:14.0-55~exp2
+      dependants_count: '1'
+      description: C, C++ and Objective-C compiler (LLVM based), clang binary
+    cloc:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.90-1
+      dependants_count: '0'
+      description: statistics utility to count lines of code
+    cmake:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 3.22.1-1ubuntu1.22.04.1
+      dependants_count: '0'
+      description: cross-platform, open-source make system
+    cscope:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 15.9-1
+      dependants_count: '0'
+      description: interactively examine a C program source
+    doxygen:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.9.1-2ubuntu2
+      dependants_count: '1'
+      description: Documentation system for C, C++, Java, Python and other languages
+    doxygen-gui:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.9.1-2ubuntu2
+      dependants_count: '0'
+      description: GUI configuration tool for doxygen
+    fastboot:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:10.0.0+r36-9
+      dependants_count: '1'
+      description: Android fastboot tool
+    g++:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 4:11.2.0-1ubuntu1
+      dependants_count: '1'
+      description: GNU C++ compiler
+    g++-11:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 11.3.0-1ubuntu1~22.04
+      dependants_count: '1'
+      description: GNU C++ compiler
+    g++-9:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 9.5.0-1ubuntu1~22.04
+      dependants_count: '0'
+      description: GNU C++ compiler
+    gcc-11:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 11.3.0-1ubuntu1~22.04
+      dependants_count: '5'
+      description: GNU C compiler
+    gcc-9:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 9.5.0-1ubuntu1~22.04
+      dependants_count: '3'
+      description: GNU C compiler
+    gcovr:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.0-2
+      dependants_count: '0'
+      description: Manages the compilation of coverage information from gcov
+    git-gui:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 1:2.34.1-1ubuntu1.8
+      dependants_count: '0'
+      description: fast, scalable, distributed revision control system (GUI)
+    git-svn:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 1:2.34.1-1ubuntu1.8
+      dependants_count: '0'
+      description: fast, scalable, distributed revision control system (svn interoperability)
+    gitk:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 1:2.34.1-1ubuntu1.8
+      dependants_count: '0'
+      description: fast, scalable, distributed revision control system (revision tree
+        visualizer)
+    golang:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2:1.18~0ubuntu2
+      dependants_count: '0'
+      description: Go programming language compiler - metapackage
+    libctf-nobfd0:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2.38-4ubuntu2.1
+      dependants_count: '1'
+      description: Compact C Type Format library (runtime, no BFD dependency)
+    libctf0:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2.38-4ubuntu2.1
+      dependants_count: '1'
+      description: Compact C Type Format library (runtime, BFD dependency)
+    libsasl2-modules:i386:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates [i386]
+      version: 2.1.27+dfsg2-3ubuntu1.2
+      dependants_count: '0'
+      description: Cyrus SASL - pluggable authentication modules
+    libtool:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.4.6-15build2
+      dependants_count: '0'
+      description: Generic library support script
+    libvirt0:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 8.0.0-1ubuntu7.4
+      dependants_count: '1'
+      description: library for interfacing with different virtualization systems
+    linux-headers-generic:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 5.15.0.69.67
+      dependants_count: '1'
+      description: Generic Linux kernel headers
+    nvidia-cuda-gdb:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 11.5.114~11.5.1-1ubuntu1
+      dependants_count: '0'
+      description: NVIDIA CUDA Debugger (GDB)
+    nvidia-profiler:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 10.1.243-3
+      dependants_count: '0'
+      description: NVIDIA Profiler for CUDA and OpenCL
+    nvidia-visual-profiler:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 10.1.243-3
+      dependants_count: '0'
+      description: NVIDIA Visual Profiler for CUDA and OpenCL
+    pmccabe:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.8-2
+      dependants_count: '0'
+      description: McCabe-style function complexity and line counting for C and C++
+    protobuf-compiler:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 3.12.4-1ubuntu7.22.04.1
+      dependants_count: '0'
+      description: compiler for protocol buffer definition files
+    rake:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 13.0.6-2
+      dependants_count: '3'
+      description: ruby make-like utility
+    redis:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5:6.0.16-1ubuntu1
+      dependants_count: '0'
+      description: Persistent key-value database with network interface (metapackage)
+    ruby-dev:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:3.0~exp1
+      dependants_count: '0'
+      description: Header files for compiling extension modules for Ruby (default
+        version)
+    runc:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1.1.4-0ubuntu1~22.04.1
+      dependants_count: '1'
+      description: Open Container Project - runtime
+    rust-gdb:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Rust debugger (gdb)
+    rustc:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1.65.0+dfsg0ubuntu1-0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: Rust systems programming language
+    subversion:
+      section: devel
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1.14.1-3ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Advanced version control system
+    valgrind:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:3.18.1-1ubuntu2
+      dependants_count: '0'
+      description: instrumentation framework for building dynamic analysis tools
+    yamllint:
+      section: devel
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.26.3-1
+      dependants_count: '1'
+      description: Linter for YAML files
+  editors:
+    exuberant-ctags:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:5.9~svn20110310-16ubuntu0.22.04.1
+      dependants_count: '0'
+      description: build tag file indexes of source code definitions
+    libreoffice:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: office productivity suite (metapackage)
+    libreoffice-style-colibre:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '4'
+      description: office productivity suite -- colibre symbol style
+    libreoffice-style-yaru:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: office productivity suite -- Yaru symbol style
+    lyx:
+      section: editors
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.3.6-1
+      dependants_count: '0'
+      description: document processor
+    vim:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2:8.2.3995-1ubuntu2.4
+      dependants_count: '1'
+      description: Vi IMproved - enhanced vi editor
+    vim-doc:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 2:8.2.3995-1ubuntu2.4
+      dependants_count: '0'
+      description: Vi IMproved - HTML documentation
+    vim-gtk3:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2:8.2.3995-1ubuntu2.4
+      dependants_count: '1'
+      description: Vi IMproved - enhanced vi editor - with GTK3 GUI
+    vim-gui-common:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 2:8.2.3995-1ubuntu2.4
+      dependants_count: '1'
+      description: Vi IMproved - Common GUI files
+    vim-runtime:
+      section: editors
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 2:8.2.3995-1ubuntu2.4
+      dependants_count: '2'
+      description: Vi IMproved - Runtime files
+    vim-scripts:
+      section: editors
+      origin: Ubuntu:22.04/jammy [all]
+      version: '20210124.2'
+      dependants_count: '0'
+      description: plugins for vim, adding bells and whistles
+  education:
+    scratch:
+      section: education
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.4.0.6~dfsg1-6.1
+      dependants_count: '0'
+      description: easy to use programming environment for ages 8 and up
+  electronics:
+    scantool:
+      section: electronics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.1-2.1build1
+      dependants_count: '0'
+      description: OBD-II vehicle diagnostic scanner
+    sigrok:
+      section: electronics
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.2-5
+      dependants_count: '0'
+      description: Logic analyzer and protocol decoder software suite (metapackage)
+  fonts:
+    fonts-dejavu-extra:
+      section: fonts
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.37-2build1
+      dependants_count: '2'
+      description: Vera font family derivate with additional characters (extra variants)
+    fonts-ipafont-gothic:
+      section: fonts
+      origin: Ubuntu:22.04/jammy [all]
+      version: 00303-21ubuntu1
+      dependants_count: '1'
+      description: Japanese OpenType font set, IPA Gothic and IPA P Gothic Fonts
+    fonts-wine:
+      section: fonts
+      origin: Ubuntu:22.04/jammy [all]
+      version: 6.0.3~repack-1
+      dependants_count: '0'
+      description: Windows API implementation - fonts
+  games:
+    cowsay:
+      section: games
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.03+dfsg2-8
+      dependants_count: '0'
+      description: configurable talking cow
+  gnome:
+    cheese:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 41.1-1build1
+      dependants_count: '0'
+      description: tool to take pictures and videos from your webcam
+    gnome-remote-desktop:
+      section: gnome
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 42.7-0ubuntu1
+      dependants_count: '0'
+      description: Remote desktop daemon for GNOME using PipeWire
+    gnome-shell:
+      section: gnome
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 42.5-0ubuntu1
+      dependants_count: '6'
+      description: graphical shell for the GNOME desktop
+    gnome-shell-common:
+      section: gnome
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 42.5-0ubuntu1
+      dependants_count: '1'
+      description: common files for the GNOME graphical shell
+    gnome-shell-extension-appindicator:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [all]
+      version: 42-2~fakesync1
+      dependants_count: '0'
+      description: AppIndicator, KStatusNotifierItem and tray support for GNOME Shell
+    gnome-shell-pomodoro:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.20.0-3
+      dependants_count: '0'
+      description: GNOME Shell time-management app
+    gparted:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.3.1-1ubuntu1
+      dependants_count: '0'
+      description: GNOME partition editor
+    gramps:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.1.5-1
+      dependants_count: '0'
+      description: Genealogical research program
+    meld:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.20.4-2
+      dependants_count: '0'
+      description: graphical tool to diff and merge files
+    mint-themes-legacy:
+      section: gnome
+      origin: linuxmint:21.1/vera [all]
+      version: 1.9.2
+      dependants_count: '1'
+      description: Legacy Mint themes
+    mint-y-icons-legacy:
+      section: gnome
+      origin: linuxmint:21.1/vera [all]
+      version: 1.6.3
+      dependants_count: '0'
+      description: Mint-Y legacy icon theme
+    nautilus-dropbox:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2019.02.14-1ubuntu1
+      dependants_count: '0'
+      description: Dropbox integration for Nautilus
+    nemo-image-converter:
+      section: gnome
+      origin: linuxmint:21.1/vera [amd64]
+      version: 5.6.0+vera
+      dependants_count: '0'
+      description: nemo extension to mass resize or rotate images
+    tilix:
+      section: gnome
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.9.4-2build1
+      dependants_count: '3'
+      description: Tiling terminal emulator for GNOME
+  graphics:
+    darktable:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.8.1-2
+      dependants_count: '0'
+      description: virtual lighttable and darkroom for photographers
+    djvulibre-bin:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.5.28-2build2
+      dependants_count: '1'
+      description: Utilities for the DjVu image format
+    font-manager:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.8.8-1
+      dependants_count: '0'
+      description: font management application for the GNOME desktop
+    gmic:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.9.4-4build1
+      dependants_count: '0'
+      description: GREYC's Magic for Image Computing
+    graphviz:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.42.2-6
+      dependants_count: '1'
+      description: rich set of graph drawing tools
+    guvcview:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.0.7-2-1
+      dependants_count: '0'
+      description: GTK+ base UVC Viewer
+    handbrake:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.5.1+ds1-1build1
+      dependants_count: '0'
+      description: versatile DVD ripper and video transcoder (GTK+ GUI)
+    imagemagick:
+      section: graphics
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3
+      dependants_count: '5'
+      description: image manipulation programs -- binaries
+    imagemagick-6.q16:
+      section: graphics
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3
+      dependants_count: '6'
+      description: image manipulation programs -- quantum depth Q16
+    mkvtoolnix:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 65.0.0-1
+      dependants_count: '0'
+      description: Set of command-line tools to work with Matroska files
+    okular:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 4:21.12.3-0ubuntu1
+      dependants_count: '0'
+      description: universal document viewer
+    pdfarranger:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.8.2-1
+      dependants_count: '0'
+      description: merge, split and re-arrange pages from PDF documents
+    plantuml:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1:1.2020.2+ds-1
+      dependants_count: '0'
+      description: text-to-UML converter
+    povray:
+      section: graphics
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:3.7.0.10-1
+      dependants_count: '0'
+      description: Persistence of vision raytracer (3D renderer)
+  interpreters:
+    cpp-11:
+      section: interpreters
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 11.3.0-1ubuntu1~22.04
+      dependants_count: '2'
+      description: GNU C preprocessor
+    cpp-9:
+      section: interpreters
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 9.5.0-1ubuntu1~22.04
+      dependants_count: '1'
+      description: GNU C preprocessor
+    gjs:
+      section: interpreters
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1.72.2-0ubuntu1
+      dependants_count: '0'
+      description: Mozilla-based javascript bindings for the GNOME platform (cli tool)
+    ruby:
+      section: interpreters
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:3.0~exp1
+      dependants_count: '48'
+      description: Interpreter of object-oriented scripting language Ruby (default
+        version)
+    squeak-vm:
+      section: interpreters
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:4.10.2.2614+20120917~dfsg-1
+      dependants_count: '1'
+      description: virtual machine for Smalltalk
+  java:
+    ant:
+      section: java
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.10.12-1
+      dependants_count: '0'
+      description: Java based build tool like make
+    libjuh-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: transitional package for LibreOffice UNO runtime environment
+    libjurt-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: transitional package for LibreOffice UNO runtime environment
+    liblibreoffice-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '10'
+      description: LibreOffice UNO runtime environment -- Java library
+    libreoffice-script-provider-bsh:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: BeanShell script support provider for LibreOffice scripting framework
+    libridl-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: transitional package for LibreOffice UNO runtime environment
+    libunoil-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: transitional package for LibreOffice UNO runtime environment
+    libunoloader-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '3'
+      description: LibreOffice UNO runtime environment -- (Java) UNO loader
+    maven:
+      section: java
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.6.3-5
+      dependants_count: '0'
+      description: Java software project management and comprehension tool
+    openjdk-8-jdk:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8u362-ga-0ubuntu1~22.04
+      dependants_count: '2'
+      description: OpenJDK Development Kit (JDK)
+    openjdk-8-jdk-headless:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8u362-ga-0ubuntu1~22.04
+      dependants_count: '1'
+      description: OpenJDK Development Kit (JDK) (headless)
+    openjdk-8-jre:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8u362-ga-0ubuntu1~22.04
+      dependants_count: '9'
+      description: OpenJDK Java runtime, using Hotspot JIT
+    openjdk-8-jre-headless:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 8u362-ga-0ubuntu1~22.04
+      dependants_count: '6'
+      description: OpenJDK Java runtime, using Hotspot JIT (headless)
+    ure-java:
+      section: java
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '2'
+      description: LibreOffice UNO runtime environment -- Java support
+  math:
+    gnuplot:
+      section: math
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.4.2+dfsg2-2
+      dependants_count: '0'
+      description: Command-line driven interactive plotting program.
+    libreoffice-nlpsolver:
+      section: math
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 0.9+LibO7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: '"Solver for Nonlinear Programming" extension for LibreOffice'
+    octave:
+      section: math
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 6.4.0-2
+      dependants_count: '10'
+      description: GNU Octave language for numerical computations
+    octave-control:
+      section: math
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.4.0-1
+      dependants_count: '0'
+      description: computer-aided control system design (CACSD) for Octave
+    octave-financial:
+      section: math
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.5.3-3
+      dependants_count: '0'
+      description: financial package for Octave
+    octave-general:
+      section: math
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.1.2-1build1
+      dependants_count: '0'
+      description: provide extra general functions for Octave
+    octave-image:
+      section: math
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.12.0-11build1
+      dependants_count: '0'
+      description: image manipulation for Octave
+  misc:
+    ansible-lint:
+      section: misc
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.4.0-2
+      dependants_count: '0'
+      description: lint tool for Ansible playbooks
+    bulky:
+      section: misc
+      origin: linuxmint:21.1/vera [all]
+      version: '2.7'
+      dependants_count: '1'
+      description: Bulk Renamer
+    entr:
+      section: misc
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 5.1-1
+      dependants_count: '0'
+      description: Run arbitrary commands when files change
+    googler:
+      section: misc
+      origin: Ubuntu:22.04/jammy [all]
+      version: 4.3.2-1
+      dependants_count: '0'
+      description: Power tool to Google (Web & News) and Google Site Search from the
+        terminal
+    inotify-tools:
+      section: misc
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.22.1.0-2
+      dependants_count: '0'
+      description: command-line programs providing a simple interface to inotify
+    libgtk-4-bin:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 4.6.6+ds-0ubuntu1
+      dependants_count: '0'
+      description: programs for the GTK graphical user interface library
+    libreoffice-report-builder:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: LibreOffice component for building database reports
+    libreoffice-report-builder-bin:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '2'
+      description: LibreOffice component for building database reports -- libraries
+    libreoffice-sdbc-mysql:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: MariaDB/MySQL SDBC driver for LibreOffice
+    libreoffice-sdbc-postgresql:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: PostgreSQL SDBC driver for LibreOffice
+    libreoffice-wiki-publisher:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1.2.0+LibO7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: LibreOffice extension for working with MediaWiki articles
+    mutter-common:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 42.5-0ubuntu1
+      dependants_count: '2'
+      description: shared files for the Mutter window manager
+    nnn:
+      section: misc
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 4.3-1
+      dependants_count: '0'
+      description: Free, fast, friendly file manager
+    ovmf:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 2022.02-3ubuntu0.22.04.1
+      dependants_count: '0'
+      description: UEFI firmware for 64-bit x86 virtual machines
+    qemu-system-common:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:6.2+dfsg-2ubuntu6.6
+      dependants_count: '1'
+      description: QEMU full system emulation binaries (common files)
+    qemu-system-x86:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:6.2+dfsg-2ubuntu6.6
+      dependants_count: '2'
+      description: QEMU full system emulation binaries (x86)
+    qemu-utils:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:6.2+dfsg-2ubuntu6.6
+      dependants_count: '1'
+      description: QEMU utilities
+    sqlite3:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 3.37.2-2ubuntu0.1
+      dependants_count: '0'
+      description: Command line interface for SQLite 3
+    thingy:
+      section: misc
+      origin: linuxmint:21.1/vera [all]
+      version: 1.1.0
+      dependants_count: '0'
+      description: Document Manager
+    virtualbox:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 6.1.38-dfsg-3~ubuntu1.22.04.1
+      dependants_count: '1'
+      description: x86 virtualization solution - base binaries
+    virtualbox-guest-additions-iso:
+      section: misc
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 6.1.38-1~ubuntu1.22.04.1
+      dependants_count: '0'
+      description: guest additions iso image for VirtualBox
+  net:
+    autossh:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.4g-1
+      dependants_count: '0'
+      description: Automatically restart SSH sessions and tunnels
+    bind9-dnsutils:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:9.18.12-0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: Clients provided with BIND 9
+    etherwake:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.09-4build1
+      dependants_count: '0'
+      description: tool to send magic Wake-on-LAN packets
+    filezilla:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.58.0-1
+      dependants_count: '0'
+      description: Full-featured graphical FTP/FTPS/SFTP client
+    geoip-bin:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.6.12-8
+      dependants_count: '0'
+      description: IP lookup command line tools that use the GeoIP library
+    iftop:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.0~pre4-7
+      dependants_count: '0'
+      description: displays bandwidth usage information on an network interface
+    ipcalc:
+      section: net
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.42-2
+      dependants_count: '0'
+      description: parameter calculator for IPv4 addresses
+    iperf:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.1.5+dfsg1-1
+      dependants_count: '0'
+      description: Internet Protocol bandwidth measuring tool
+    iperf3:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.9-1build1
+      dependants_count: '0'
+      description: Internet Protocol bandwidth measuring tool
+    iptraf-ng:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:1.2.1-1build2
+      dependants_count: '0'
+      description: Next Generation Interactive Colorful IP LAN Monitor
+    libnetplan0:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 0.105-0ubuntu2~22.04.3
+      dependants_count: '1'
+      description: YAML network configuration abstraction runtime library
+    nethogs:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.8.6-3
+      dependants_count: '0'
+      description: Net top tool grouping bandwidth per process
+    nfs-common:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:2.6.1-1ubuntu1.2
+      dependants_count: '1'
+      description: NFS support files common to client and server
+    nfs-kernel-server:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:2.6.1-1ubuntu1.2
+      dependants_count: '0'
+      description: support for NFS kernel server
+    nload:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.7.4-2build3
+      dependants_count: '0'
+      description: realtime console network usage monitor
+    nmap:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1
+      dependants_count: '0'
+      description: The Network Mapper
+    nmap-common:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1
+      dependants_count: '1'
+      description: Architecture independent files for nmap
+    samba:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2:4.15.13+dfsg-0ubuntu1
+      dependants_count: '0'
+      description: SMB/CIFS file, print, and login server for Unix
+    samba-vfs-modules:
+      section: net
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 2:4.15.13+dfsg-0ubuntu1
+      dependants_count: '0'
+      description: Samba Virtual FileSystem plugins
+    traceroute:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:2.1.0-2
+      dependants_count: '0'
+      description: Traces the route taken by packets over an IPv4/IPv6 network
+    transmission:
+      section: net
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.00-2ubuntu2
+      dependants_count: '0'
+      description: lightweight BitTorrent client
+    transmission-remote-gtk:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.4.1-5
+      dependants_count: '0'
+      description: GTK+ interface for the Transmission BitTorrent daemon
+    tshark:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.6.2-2
+      dependants_count: '0'
+      description: network traffic analyzer - console version
+    vnstat:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.9-1
+      dependants_count: '0'
+      description: console-based network traffic monitor
+    whois:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 5.5.13
+      dependants_count: '0'
+      description: intelligent WHOIS client
+    wireshark:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.6.2-2
+      dependants_count: '0'
+      description: network traffic analyzer - meta-package
+    wireshark-qt:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.6.2-2
+      dependants_count: '1'
+      description: network traffic analyzer - Qt version
+  rust: {}
+  shells:
+    zsh:
+      section: shells
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 5.8.1-1
+      dependants_count: '0'
+      description: shell with lots of features
+    zsh-common:
+      section: shells
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.8.1-1
+      dependants_count: '1'
+      description: architecture independent files for Zsh
+  sound:
+    espeak-ng-espeak:
+      section: sound
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.50+dfsg-10
+      dependants_count: '0'
+      description: Multi-lingual software speech synthesizer
+    festival:
+      section: sound
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:2.5.0-8
+      dependants_count: '4'
+      description: General multi-lingual speech synthesis system
+    festvox-us-slt-hts:
+      section: sound
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.2010.10.25-4
+      dependants_count: '0'
+      description: ": US English voice for Festival. 32kHz sample rate, HTS"
+    libttspico-utils:
+      section: sound
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.0+git20130326-12
+      dependants_count: '0'
+      description: Small Footprint TTS (binaries)
+    paprefs:
+      section: sound
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.2-0ubuntu1
+      dependants_count: '0'
+      description: PulseAudio Preferences
+    pavucontrol:
+      section: sound
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 5.0-2
+      dependants_count: '0'
+      description: PulseAudio Volume Control
+    pulseaudio-module-gsettings:
+      section: sound
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:15.99.1+dfsg1-1ubuntu2.1
+      dependants_count: '1'
+      description: GSettings module for PulseAudio sound server
+    pulseaudio-module-zeroconf:
+      section: sound
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1:15.99.1+dfsg1-1ubuntu2.1
+      dependants_count: '1'
+      description: Zeroconf module for PulseAudio sound server
+  text:
+    calibre:
+      section: text
+      origin: Ubuntu:22.04/jammy [all]
+      version: 5.37.0+dfsg-1build1
+      dependants_count: '0'
+      description: powerful and easy to use e-book manager
+    colordiff:
+      section: text
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.0.18-1.1
+      dependants_count: '0'
+      description: tool to colorize 'diff' output
+    dos2unix:
+      section: text
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 7.4.2-2
+      dependants_count: '0'
+      description: convert text file line endings between CRLF and LF
+    figlet:
+      section: text
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.2.5-3
+      dependants_count: '0'
+      description: Make large character ASCII banners out of ordinary text
+    pandoc:
+      section: text
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.9.2.1-3ubuntu2
+      dependants_count: '0'
+      description: general markup converter
+    pdf2djvu:
+      section: text
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.9.18.2-1
+      dependants_count: '0'
+      description: PDF to DjVu converter
+    pdfsandwich:
+      section: text
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.1.7-2build2
+      dependants_count: '0'
+      description: Tool to generate "sandwich" OCR pdf files
+  utils:
+    ack:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.5.0-1
+      dependants_count: '0'
+      description: grep-like program specifically for large source trees
+    bat:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 0.19.0-1ubuntu0.1
+      dependants_count: '0'
+      description: cat(1) clone with syntax highlighting and git integration
+    btop:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.2.3-2
+      dependants_count: '0'
+      description: Modern and colorful command line resource monitor that shows usage
+        and stats
+    clamav:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 0.103.8+dfsg-0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: anti-virus utility for Unix - command-line interface
+    clamav-base:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 0.103.8+dfsg-0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: anti-virus utility for Unix - base package
+    clamav-freshclam:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 0.103.8+dfsg-0ubuntu0.22.04.1
+      dependants_count: '4'
+      description: anti-virus utility for Unix - virus database update utility
+    clamtk:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 6.07-1
+      dependants_count: '1'
+      description: graphical front-end for ClamAV
+    conky-all:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.12.2-1
+      dependants_count: '1'
+      description: highly configurable system monitor (all features enabled)
+    copyq:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 6.0.1-1
+      dependants_count: '1'
+      description: Advanced clipboard manager with editing and scripting features
+    copyq-plugins:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 6.0.1-1
+      dependants_count: '0'
+      description: Plugins for CopyQ
+    cpufrequtils:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: '008-2build1'
+      dependants_count: '0'
+      description: utilities to deal with the cpufreq Linux kernel feature
+    dconf-editor:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.38.3-3
+      dependants_count: '0'
+      description: simple configuration storage system - graphical editor
+    docker-registry:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.8.0+ds1-4
+      dependants_count: '0'
+      description: Docker toolset to pack, ship, store, and deliver content
+    duf:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.6.2-1build1
+      dependants_count: '0'
+      description: Disk Usage/Free Utility
+    duplicity:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.8.21-1build1
+      dependants_count: '0'
+      description: encrypted bandwidth-efficient backup
+    fdupes:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:2.1.2-1build1
+      dependants_count: '0'
+      description: identifies duplicate files within given directories
+    finalrd:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 9build1
+      dependants_count: '1'
+      description: final runtime directory for shutdown
+    fwupd-signed:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 1.51~22.04.1+1.2-3ubuntu0.2
+      dependants_count: '0'
+      description: Linux Firmware Updater EFI signed binary
+    fzf:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.29.0-1
+      dependants_count: '0'
+      description: general-purpose command-line fuzzy finder
+    gameconqueror:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.17-3
+      dependants_count: '0'
+      description: locate and modify a variable in a running process (GUI)
+    glances:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.2.4.2+dfsg-1
+      dependants_count: '0'
+      description: Curses-based monitoring tool
+    gnupg2:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 2.2.27-3ubuntu2.1
+      dependants_count: '0'
+      description: GNU privacy guard - a free PGP replacement (dummy transitional
+        package)
+    htop:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.0.5-7build2
+      dependants_count: '0'
+      description: interactive processes viewer
+    jq:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.6-2.1ubuntu3
+      dependants_count: '0'
+      description: lightweight and flexible command-line JSON processor
+    keepassxc:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.6.6+dfsg.1-1
+      dependants_count: '0'
+      description: Cross Platform Password Manager
+    kpcli:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.1-3.1
+      dependants_count: '0'
+      description: command line interface to KeePassX password manager databases
+    lz4:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.9.3-2build2
+      dependants_count: '0'
+      description: Fast LZ compression algorithm library - tool
+    lzop:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.04-2build2
+      dependants_count: '1'
+      description: fast compression program
+    mc:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3:4.8.27-1
+      dependants_count: '0'
+      description: Midnight Commander - a powerful file manager
+    miller:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 6.0.0-1
+      dependants_count: '0'
+      description: name-indexed data processing tool
+    mmv:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.01b-19build1
+      dependants_count: '0'
+      description: Move/Copy/Append/Link multiple files
+    neofetch:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 7.1.0-3
+      dependants_count: '0'
+      description: Shows Linux System Information with Distribution Logo
+    pax:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:20201030-1build2
+      dependants_count: '0'
+      description: Portable Archive Interchange (cpio, pax, tar)
+    procinfo:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:2.0.304-6
+      dependants_count: '0'
+      description: tools to display information from /proc and /sys
+    pv:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.6.6-1build2
+      dependants_count: '0'
+      description: Shell pipeline element to meter data passing through
+    ripgrep:
+      section: utils
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 13.0.0-2ubuntu0.1
+      dependants_count: '0'
+      description: Recursively searches directories for a regex pattern
+    scanmem:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.17-3
+      dependants_count: '2'
+      description: locate and modify a variable in a running process
+    screenfetch:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 3.9.1+20210523-1
+      dependants_count: '0'
+      description: Bash Screenshot Information Tool
+    sshfs:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.7.1+repack-2
+      dependants_count: '0'
+      description: filesystem client based on SSH File Transfer Protocol
+    sshpass:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.09-1
+      dependants_count: '0'
+      description: Non-interactive ssh password authentication
+    tdb-tools:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.4.5-2build1
+      dependants_count: '1'
+      description: Trivial Database - bundled binaries
+    trash-cli:
+      section: utils
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.17.1.14-5build1
+      dependants_count: '1'
+      description: command line trashcan utility
+    tree:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.0.2-1
+      dependants_count: '0'
+      description: displays an indented directory tree, in color
+    v4l-utils:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.22.1-2build1
+      dependants_count: '0'
+      description: Collection of command line video4linux utilities
+    zoxide:
+      section: utils
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.4.3-2
+      dependants_count: '0'
+      description: Faster way to navigate your filesystem
+  vcs:
+    git:
+      section: vcs
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 1:2.34.1-1ubuntu1.8
+      dependants_count: '9'
+      description: fast, scalable, distributed revision control system
+    git-man:
+      section: vcs
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [all]
+      version: 1:2.34.1-1ubuntu1.8
+      dependants_count: '2'
+      description: fast, scalable, distributed revision control system (manual pages)
+    gitg:
+      section: vcs
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 41-2
+      dependants_count: '0'
+      description: git repository viewer
+  video:
+    ffmpeg:
+      section: video
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 7:4.4.2-0ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Tools for transcoding, streaming and playing of multimedia files
+    hypnotix:
+      section: video
+      origin: linuxmint:21.1/vera [all]
+      version: '3.2'
+      dependants_count: '0'
+      description: IPTV Player
+    pipewire-bin:
+      section: video
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 0.3.48-1ubuntu3
+      dependants_count: '1'
+      description: PipeWire multimedia server - programs
+    webcamoid:
+      section: video
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 8.8.0+dfsg-1
+      dependants_count: '0'
+      description: full featured webcam capture application
+    xplayer-thumbnailer:
+      section: video
+      origin: linuxmint:21.1/vera [amd64]
+      version: 2.4.4+vanessa
+      dependants_count: '0'
+      description: Media player
+  web:
+    chromium-browser:
+      section: web
+      origin: linuxmint:21.1/vera [all]
+      version: 2020.10.27
+      dependants_count: '0'
+      description: Transitional package
+    elinks:
+      section: web
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.13.2-1build3
+      dependants_count: '1'
+      description: advanced text-mode WWW browser
+    httpie:
+      section: web
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.6.0-1
+      dependants_count: '0'
+      description: CLI, cURL-like tool for humans
+    httrack:
+      section: web
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.49.2-1.1build1
+      dependants_count: '0'
+      description: Copy websites to your computer (Offline browser)
+    libjs-underscore:
+      section: web
+      origin: Ubuntu:22.04/jammy [all]
+      version: 1.13.2~dfsg-2
+      dependants_count: '1'
+      description: JavaScript's functional programming helper library
+    libreoffice-script-provider-js:
+      section: web
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: JavaScript script support provider for LibreOffice scripting framework
+    lynx:
+      section: web
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 2.9.0dev.10-1
+      dependants_count: '1'
+      description: classic non-graphical (text-mode) web browser
+    npm:
+      section: web
+      origin: Ubuntu:22.04/jammy [all]
+      version: 8.5.1~ds-1
+      dependants_count: '0'
+      description: package manager for Node.js
+  x11:
+    i3:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 4.20.1-1
+      dependants_count: '0'
+      description: metapackage (i3 window manager, screen locker, menu, statusbar)
+    intel-gpu-tools:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.26-2
+      dependants_count: '0'
+      description: tools for debugging the Intel graphics driver
+    libreoffice-style-elementary:
+      section: x11
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 1:7.3.7-0ubuntu0.22.04.2
+      dependants_count: '0'
+      description: office productivity suite -- Elementary symbol style
+    mutter:
+      section: x11
+      origin: Ubuntu:22.04/jammy-updates [amd64]
+      version: 42.5-0ubuntu1
+      dependants_count: '0'
+      description: Example window manager using GNOME's window manager library
+    nvidia-common:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:0.9.6.1
+      dependants_count: '0'
+      description: transitional package for ubuntu-drivers-common
+    nvidia-settings:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 510.47.03-0ubuntu1
+      dependants_count: '0'
+      description: Tool for configuring the NVIDIA graphics driver
+    plymouth-theme-ubuntu-budgie-logo:
+      section: x11
+      origin: Ubuntu:22.04/jammy [all]
+      version: 0.14.4
+      dependants_count: '0'
+      description: graphical boot animation and logger - Ubuntu Budgie logo theme
+    plymouth-theme-ubuntu-logo:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.9.5+git20211018-1ubuntu3
+      dependants_count: '0'
+      description: boot animation, logger and I/O multiplexer - ubuntu theme
+    plymouth-x11:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.9.5+git20211018-1ubuntu3
+      dependants_count: '0'
+      description: boot animation, logger and I/O multiplexer - X11 renderer
+    sticky:
+      section: x11
+      origin: linuxmint:21.1/vera [all]
+      version: '1.14'
+      dependants_count: '0'
+      description: Sticky Notes app
+    warpinator:
+      section: x11
+      origin: linuxmint:21.1/vera [all]
+      version: 1.4.5+victoria
+      dependants_count: '0'
+      description: Allows simple local network file sharing.
+    xclip:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 0.13-2
+      dependants_count: '0'
+      description: command line interface to X selections
+    xserver-xorg-video-nvidia-470:
+      section: x11
+      origin: Ubuntu:22.04/jammy-updates, Ubuntu:22.04/jammy-security [amd64]
+      version: 470.161.03-0ubuntu0.22.04.1
+      dependants_count: '1'
+      description: NVIDIA binary Xorg driver
+    xterm:
+      section: x11
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 372-1ubuntu1
+      dependants_count: '7'
+      description: X terminal emulator
+ppa:
+  neovim:
+    section: editors
+    origin: Neovim Unstable:22.04/jammy [amd64]
+    version: 0.9.0~ubuntu1+git202303312025-83bfd94d1-333b5866f-313b5873c~ubuntu22.04.1
+    dependants_count: '1'
+    description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+    source: ppa:neovim-ppa/unstable
+  neovim-runtime:
+    section: editors
+    origin: Neovim Unstable:22.04/jammy [all]
+    version: 0.9.0~ubuntu1+git202303312025-83bfd94d1-333b5866f-313b5873c~ubuntu22.04.1
+    dependants_count: '1'
+    description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+      (runtime files)
+    source: ppa:neovim-ppa/unstable
+  lutris:
+    section: games
+    origin: lutris:22.04/jammy [all]
+    version: 0.5.12~ubuntu22.04.1
+    dependants_count: '0'
+    description: video game preservation platform
+    source: ppa:lutris-team/lutris
+  noson-app:
+    section: misc
+    origin: noson-app:22.04/jammy [amd64]
+    version: 5.4~202302011756~ubuntu22.04.1
+    dependants_count: '0'
+    description: SONOS controller for Linux
+    source: ppa:jlbarriere68/noson-app
+  openrazer-daemon:
+    section: misc
+    origin: Stable Branch:22.04/jammy [all]
+    version: 3.5.1~ubuntu22.04.1
+    dependants_count: '2'
+    description: OpenRazer peripheral drivers (daemon)
+    source: ppa:openrazer/stable
+  openrazer-meta:
+    section: misc
+    origin: Stable Branch:22.04/jammy [all]
+    version: 3.5.1~ubuntu22.04.1
+    dependants_count: '0'
+    description: OpenRazer peripheral drivers (metapackage)
+    source: ppa:openrazer/stable
+  alacritty:
+    section: rust
+    origin: PPA:22.04/jammy [amd64]
+    version: 0.12.0+1-20230325T020301~jammy-2df8f860
+    dependants_count: '0'
+    description: GPU-accelerated terminal emulator
+    source: ppa:aslatter/ppa
+  conky-manager:
+    section: utils
+    origin: Conky Manager for Peppermint 9:18.04/bionic [amd64]
+    version: 2.4~136~ubuntu16.04.1
+    dependants_count: '0'
+    description: Utility for managing Conky configuration files
+    source: ppa:mark-pcnetspec/conky-manager-pm9
+  woeusb:
+    section: utils
+    origin: WebUpd8:20.04/focal [amd64]
+    version: 3.3.1-1~webupd8~focal0
+    dependants_count: '0'
+    description: Bootable Windows installation/PE USB storage creator
+    source: ppa:nilarimogard/webupd8
+  zeal:
+    section: utils
+    origin: Zeal:18.04/bionic [amd64]
+    version: 1:0.6.1-3ppa1~bionic1
+    dependants_count: '0'
+    description: Simple offline API documentation browser
+    source: ppa:zeal-developers/ppa
+  mpv:
+    section: video
+    origin: Mpv media player (FFmpeg version):20.04/focal [amd64]
+    version: 2:0.33.0~focal1
+    dependants_count: '0'
+    description: mplayer/mplayer2 based video player
+    source: ppa:mc3man/mpv-tests
+  papirus-icon-theme:
+    section: x11
+    origin: papirus:22.04/jammy [all]
+    version: 20230301-6148+pkg22~ubuntu22.04.1
+    dependants_count: '0'
+    description: Papirus Icon Theme
+    source: ppa:papirus/papirus
+  polychromatic:
+    section: x11
+    origin: Release / Stable:22.04/jammy [all]
+    version: 0.8.0
+    dependants_count: '0'
+    description: RGB lighting utility (metapackage)
+    source: ppa:polychromatic/stable
+  polychromatic-cli:
+    section: x11
+    origin: Release / Stable:22.04/jammy [all]
+    version: 0.8.0
+    dependants_count: '1'
+    description: RGB lighting utility (CLI interface)
+    source: ppa:polychromatic/stable
+  polychromatic-common:
+    section: x11
+    origin: Release / Stable:22.04/jammy [all]
+    version: 0.8.0
+    dependants_count: '4'
+    description: RGB lighting utility (common files)
+    source: ppa:polychromatic/stable
+  polychromatic-controller:
+    section: x11
+    origin: Release / Stable:22.04/jammy [all]
+    version: 0.8.0
+    dependants_count: '1'
+    description: RGB lighting utility (Qt interface)
+    source: ppa:polychromatic/stable
+  polychromatic-tray-applet:
+    section: x11
+    origin: Release / Stable:22.04/jammy [all]
+    version: 0.8.0
+    dependants_count: '1'
+    description: RGB lighting utility (Indicator applet)
+    source: ppa:polychromatic/stable
+3rd_party:
+  docker-containerd:
+    section: admin
+    origin: "(installed locally)"
+    version: 0.2.3+git+docker1.13.1~ds1-1
+    dependants_count: '0'
+    description: daemon to control runC (Docker's version)
+    source: "/var/lib/dpkg/status"
+  brscan-skey:
+    section: brother
+    origin: "(installed locally)"
+    version: 0.3.1-2
+    dependants_count: '0'
+    description: Brother Linux scanner S-KEY tool
+    source: "/var/lib/dpkg/status"
+  docker-runc:
+    section: devel
+    origin: "(installed locally)"
+    version: 1.0.0~rc2+git+docker1.13.1~ds1-3
+    dependants_count: '1'
+    description: Open Container Project - runtime (Docker's version)
+    source: "/var/lib/dpkg/status"
+  g++-7:
+    section: devel
+    origin: "(installed locally)"
+    version: 7.5.0-6ubuntu2
+    dependants_count: '0'
+    description: GNU C++ compiler
+    source: "/var/lib/dpkg/status"
+  gh:
+    section: devel
+    origin: gh:cli.github.com [amd64]
+    version: 2.14.7
+    dependants_count: '0'
+    description: GitHub’s official command line tool.
+    source: https://cli.github.com/packages focal/main amd64 Packages
+  snapd:
+    section: devel
+    origin: "(installed locally)"
+    version: 2.44.3+20.04
+    dependants_count: '0'
+    description: Daemon and tooling that enable snap packages
+    source: 
+  steam-launcher:
+    section: games
+    origin: Steam launcher:repo.steampowered.com [all]
+    version: 1:1.0.0.75
+    dependants_count: '0'
+    description: Launcher for the Steam software distribution service
+    source: https://repo.steampowered.com/steam stable/steam amd64 Packages
+  steam-libs-amd64:
+    section: games
+    origin: Steam launcher:repo.steampowered.com [amd64]
+    version: 1:1.0.0.75
+    dependants_count: '0'
+    description: Steam libraries metapackage
+    source: https://repo.steampowered.com/steam stable/steam amd64 Packages
+  steam-libs-i386:i386:
+    section: games
+    origin: Steam launcher:repo.steampowered.com [i386]
+    version: 1:1.0.0.75
+    dependants_count: '0'
+    description: Steam libraries metapackage
+    source: https://repo.steampowered.com/steam stable/steam i386 Packages
+  openjdk-13-jdk:
+    section: java
+    origin: "(installed locally)"
+    version: 13.0.7+5-0ubuntu1~20.04
+    dependants_count: '1'
+    description: OpenJDK Development Kit (JDK)
+    source: "/var/lib/dpkg/status"
+  openjdk-16-jdk:
+    section: java
+    origin: "(installed locally)"
+    version: 16.0.1+9-1~20.04
+    dependants_count: '1'
+    description: OpenJDK Development Kit (JDK)
+    source: "/var/lib/dpkg/status"
+  ancestris:
+    section: misc
+    origin: "(installed locally)"
+    version: 11-20211017-0-0ubuntu1
+    dependants_count: '0'
+    description: Genealogy Program - Programme de gestion de données généalogiques
+    source: "/var/lib/dpkg/status"
+  osquery:
+    section: misc
+    origin: "(installed locally)"
+    version: 4.9.0-1.linux
+    dependants_count: '0'
+    description: osquery is an operating system instrumentation toolchain.
+    source: "/var/lib/dpkg/status"
+  slack-desktop:
+    section: misc
+    origin: slack:1/jessie [amd64]
+    version: 4.29.149
+    dependants_count: '0'
+    description: Slack Desktop
+    source: https://packagecloud.io/slacktechnologies/slack/debian jessie/main amd64
+      Packages
+  syncthing:
+    section: misc
+    origin: Syncthing:syncthing [amd64]
+    version: 1.23.2
+    dependants_count: '0'
+    description: Open Source Continuous File Synchronization
+    source: https://apt.syncthing.net syncthing/stable amd64 Packages
+  teamviewer:
+    section: net
+    origin: TeamViewer:stable [amd64]
+    version: 15.40.8
+    dependants_count: '0'
+    description: Remote control and meeting solution.
+    source: https://linux.teamviewer.com/deb stable/main amd64 Packages
+  viber:
+    section: net
+    origin: "(installed locally)"
+    version: 13.3.1.22
+    dependants_count: '0'
+    description: Free Text & Calls.
+    source: "/var/lib/dpkg/status"
+  ckan:
+    section: utils
+    origin: "(installed locally)"
+    version: 1.26.4
+    dependants_count: '0'
+    description: KSP-CKAN official client.
+    source: "/var/lib/dpkg/status"
+  google-chrome-beta:
+    section: web
+    origin: Google:1.0/stable [amd64]
+    version: 112.0.5615.49-1
+    dependants_count: '1'
+    description: The web browser from Google
+    source: http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+  google-chrome-stable:
+    section: web
+    origin: Google:1.0/stable [amd64]
+    version: 111.0.5563.146-1
+    dependants_count: '1'
+    description: The web browser from Google
+    source: http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+flatpak:
+  Amberol:
+    version: 0.9.2
+    app_id: io.bassi.Amberol
+    description: Plays music, and nothing else
+  SaveDesktop:
+    version: '2.0'
+    app_id: io.github.vikdevelop.SaveDesktop
+    description: Save the current configuration of your desktop environment
+  mpv:
+    version: 0.35.1
+    app_id: io.mpv.Mpv
+    description: A free, open source, and cross-platform media player
+gems:
+  amazing_print:
+    version: 1.4.0
+    description: Pretty print Ruby objects with proper indentation and colors
+  ast:
+    version: 2.4.2
+    description: A library for working with Abstract Syntax Trees.
+  backport:
+    version: 1.2.0
+    description: A pure Ruby library for event-driven IO
+  benchmark:
+    version: 0.2.1
+    description: a performance benchmarking library
+  bundler:
+    version: 2.3.22
+    description: The best way to manage your application's dependencies
+  bundler-leak:
+    version: 0.3.0
+    description: Memory leaks verification for Bundler
+  caliber:
+    version: 0.20.0
+    description: Provides a high quality style guide and configuration for your projects.
+  caxlsx:
+    version: 3.3.0
+    description: Excel OOXML (xlsx) with charts, styles, images and autowidth columns.
+  coderay:
+    version: 1.1.3
+    description: Fast syntax highlighting for selected languages.
+  cogger:
+    version: 0.4.0
+    description: Decorates native logging with colorized output.
+  concurrent-ruby:
+    version: 1.1.10
+    description: Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala,
+      Haskell, F#, C#, Java, and classic concurrency patterns.
+  debug:
+    version: 1.7.1
+    description: Debugging functionality for Ruby
+  diff-lcs:
+    version: 1.5.0
+    description: Diff::LCS computes the difference between two Enumerable sequences
+      using the McIlroy-Hunt longest common subsequence (LCS) algorithm
+  docile:
+    version: 1.4.0
+    description: Docile keeps your Ruby DSLs tame and well-behaved.
+  dry-container:
+    version: 0.11.0
+    description: A simple, configurable object container implemented in Ruby
+  dry-core:
+    version: 1.0.0
+    description: A toolset of small support modules used throughout the dry-rb ecosystem
+  dry-monads:
+    version: 1.6.0
+    description: Common monads for Ruby
+  e2mmap:
+    version: 0.1.0
+    description: Module for defining custom exceptions with specific messages.
+  ffi:
+    version: 1.15.5
+    description: Ruby FFI
+  formatador:
+    version: 1.1.0
+    description: Ruby STDOUT text formatting
+  git-lint:
+    version: 4.6.0
+    description: A command line interface for linting Git commits.
+  git_plus:
+    version: 1.7.1
+    description: Provides an Object API around Git.
+  guard:
+    version: 2.18.0
+    description: Guard keeps an eye on your file modifications
+  guard-compat:
+    version: 1.2.1
+    description: Tools for developing Guard compatible plugins
+  guard-rspec:
+    version: 4.7.3
+    description: Guard gem for RSpec
+  htmlentities:
+    version: 4.3.4
+    description: Encode/decode HTML entities
+  infusible:
+    version: 0.2.0
+    description: Automates the injection of dependencies into your class.
+  io-console:
+    version: 0.6.0
+    description: Console interface
+  irb:
+    version: 1.6.2
+    description: Interactive Ruby command-line tool for REPL (Read Eval Print Loop).
+  jaro_winkler:
+    version: 1.5.4
+    description: An implementation of Jaro-Winkler distance algorithm written \ in
+      C extension which supports any kind of string encoding.
+  json:
+    version: 2.6.3
+    description: JSON Implementation for Ruby
+  kramdown:
+    version: 2.4.0
+    description: kramdown is a fast, pure-Ruby Markdown-superset converter.
+  kramdown-parser-gfm:
+    version: 1.1.0
+    description: kramdown-parser-gfm provides a kramdown parser for the GFM dialect
+      of Markdown
+  kwalify:
+    version: 0.7.2
+    description: a parser, schema validator, and data-binding tool for YAML and JSON.
+  listen:
+    version: 3.7.1
+    description: Listen to file modifications
+  lumberjack:
+    version: 1.2.8
+    description: A simple, powerful, and very fast logging utility that can be a drop
+      in replacement for Logger or ActiveSupport::BufferedLogger.
+  marameters:
+    version: 0.10.0
+    description: Provides dynamic method parameter construction and deconstruction.
+  marcel:
+    version: 1.0.2
+    description: Simple mime type detection using magic numbers, filenames, and extensions
+  method_source:
+    version: 1.0.0
+    description: retrieve the sourcecode for a method
+  micromachine:
+    version: 3.0.0
+    description: Minimal Finite State Machine.
+  nenv:
+    version: 0.3.0
+    description: Convenience wrapper for Ruby's ENV
+  nokogiri:
+    version: 1.13.10
+    description: Nokogiri (鋸) makes it easy and painless to work with XML and HTML
+      from Ruby.
+  notiffany:
+    version: 0.1.3
+    description: Notifier library (extracted from Guard project)
+  parallel:
+    version: 1.22.1
+    description: Run any kind of code in parallel processes
+  parser:
+    version: 3.1.3.0
+    description: A Ruby parser written in pure Ruby.
+  pastel:
+    version: 0.8.0
+    description: Terminal strings styling with intuitive and clean API.
+  pry:
+    version: 0.14.1
+    description: A runtime developer console and IRB alternative with powerful introspection
+      capabilities.
+  pry-nav:
+    version: 1.0.0
+    description: Simple execution navigation for Pry.
+  qp:
+    version: 0.0.1
+    description: Query manually installed Ubuntu packages
+  racc:
+    version: 1.6.2
+    description: Racc is a LALR(1) parser generator
+  rainbow:
+    version: 3.1.1
+    description: Colorize printed text on ANSI terminals
+  rake:
+    version: 13.0.6
+    description: Rake is a Make-like program implemented in Ruby
+  rb-fsevent:
+    version: 0.11.2
+    description: Very simple & usable FSEvents API
+  rb-inotify:
+    version: 0.10.1
+    description: A Ruby wrapper for Linux inotify, using FFI
+  reek:
+    version: 6.1.2
+    description: Code smell detector for Ruby
+  refinements:
+    version: 9.8.0
+    description: A collection of refinements to core Ruby objects.
+  regexp_parser:
+    version: 2.6.1
+    description: Scanner, lexer, parser for ruby's regular expressions
+  reline:
+    version: 0.3.2
+    description: Alternative GNU Readline or Editline implementation by pure Ruby.
+  reverse_markdown:
+    version: 2.1.1
+    description: Convert html code into markdown.
+  rexml:
+    version: 3.2.5
+    description: An XML toolkit for Ruby
+  rspec:
+    version: 3.12.0
+    description: rspec-3.12.0
+  rspec-core:
+    version: 3.12.0
+    description: rspec-core-3.12.0
+  rspec-expectations:
+    version: 3.12.1
+    description: rspec-expectations-3.12.1
+  rspec-mocks:
+    version: 3.12.1
+    description: rspec-mocks-3.12.1
+  rspec-support:
+    version: 3.12.0
+    description: rspec-support-3.12.0
+  rubocop:
+    version: 1.41.1
+    description: Automatic Ruby code style checking tool.
+  rubocop-ast:
+    version: 1.24.0
+    description: RuboCop tools to deal with Ruby code AST.
+  rubocop-performance:
+    version: 1.15.2
+    description: Automatic performance checking tool for Ruby code.
+  rubocop-rake:
+    version: 0.6.0
+    description: A RuboCop plugin for Rake
+  rubocop-rspec:
+    version: 2.16.0
+    description: Code style checking for RSpec files
+  rubocop-thread_safety:
+    version: 0.4.4
+    description: Thread-safety checks via static analysis
+  ruby-progressbar:
+    version: 1.11.0
+    description: Ruby/ProgressBar is a flexible text progress bar library for Ruby.
+  rubyzip:
+    version: 2.3.2
+    description: rubyzip is a ruby module for reading and writing zip files
+  runcom:
+    version: 8.7.0
+    description: An XDG enhanced run command manager for command line interfaces.
+  shellany:
+    version: 0.0.1
+    description: Simple, somewhat portable command capturing
+  simplecov:
+    version: 0.22.0
+    description: Code coverage for Ruby
+  simplecov-html:
+    version: 0.12.3
+    description: Default HTML formatter for SimpleCov code coverage tool for ruby
+      2.4+
+  simplecov_json_formatter:
+    version: 0.1.4
+    description: JSON formatter for SimpleCov
+  solargraph:
+    version: 0.48.0
+    description: A Ruby language server
+  spek:
+    version: 0.6.0
+    description: Enhances gem specifications with additional information and tooling.
+  thor:
+    version: 1.2.1
+    description: Thor is a toolkit for building powerful command-line interfaces.
+  tilt:
+    version: 2.0.11
+    description: Generic interface to multiple Ruby template engines
+  tty-color:
+    version: 0.6.0
+    description: Terminal color capabilities detection
+  unicode-display_width:
+    version: 2.3.0
+    description: Determines the monospace display width of a string in Ruby.
+  versionaire:
+    version: 10.6.0
+    description: Provides an immutable, thread-safe, and semantic version type.
+  webrick:
+    version: 1.7.0
+    description: HTTP server toolkit
+  xdg:
+    version: 6.6.2
+    description: Provides an implementation of the XDG Base Directory Specification.
+  yard:
+    version: 0.9.28
+    description: Documentation tool for consistent and usable documentation in Ruby.
+  zeitwerk:
+    version: 2.6.6
+    description: Efficient and thread-safe constant autoloader
+pip:
+  ansible-base:
+    version: 2.10.8
+    description: Radically simple IT automation
+  ansible-lint:
+    version: 5.4.0
+    description: Checks playbooks for practices and behaviour that could potentially
+      be improved
+  apache-libcloud:
+    version: 3.2.0
+    description: A standard Python library that abstracts away differences among multiple
+      cloud provider APIs. For more information and documentation, please see https://libcloud.apache.org
+  apsw:
+    version: 3.36.0.post1
+    description: Another Python SQLite Wrapper
+  apt-clone:
+    version: 0.2.1
+    description: UNKNOWN
+  apturl:
+    version: 0.5.2
+    description: UNKNOWN
+  argcomplete:
+    version: 1.8.1
+    description: Bash tab completion for argparse
+  attrs:
+    version: 21.2.0
+    description: Classes Without Boilerplate
+  Babel:
+    version: 2.8.0
+    description: Internationalization utilities
+  beautifulsoup4:
+    version: 4.10.0
+    description: Screen-scraping library
+  blinker:
+    version: '1.4'
+    description: Fast, simple object-to-object and broadcast signaling
+  bracex:
+    version: 2.2.1
+    description: Bash style brace expander.
+  Brlapi:
+    version: 0.8.3
+    description: BrlAPI Client Bindings for Python
+  Brotli:
+    version: 1.0.9
+    description: Python bindings for the Brotli compression library
+  bsddb3:
+    version: 6.2.9
+    description: Python bindings for Oracle Berkeley DB
+  cached-property:
+    version: 1.5.2
+    description: A decorator for caching properties in classes.
+  certifi:
+    version: 2020.6.20
+    description: Python package for providing Mozilla's CA Bundle.
+  chardet:
+    version: 4.0.0
+    description: Universal encoding detector for Python 2 and 3
+  charset-normalizer:
+    version: 2.0.6
+    description: The Real First Universal Charset Detector. Open, modern and actively
+      maintained alternative to Chardet.
+  click:
+    version: 8.0.3
+    description: Composable command line interface toolkit
+  colorama:
+    version: 0.4.4
+    description: Cross-platform colored terminal text.
+  colour:
+    version: 0.1.5
+    description: converts and manipulates various color representation (HSL, RVB,
+      web, X11, ...)
+  command-not-found:
+    version: '0.3'
+    description: UNKNOWN
+  commonmark:
+    version: 0.9.1
+    description: Python parser for the CommonMark Markdown spec
+  configobj:
+    version: 5.0.6
+    description: Config file reading, writing and validation.
+  cryptography:
+    version: 3.4.8
+    description: cryptography is a package which provides cryptographic recipes and
+      primitives to Python developers.
+  css-parser:
+    version: 1.0.7
+    description: A CSS Cascading Style Sheets library for Python
+  cssselect:
+    version: 1.1.0
+    description: cssselect parses CSS3 Selectors and translates them to XPath 1.0
+  cssutils:
+    version: 1.0.2
+    description: A CSS Cascading Style Sheets library for Python
+  cupshelpers:
+    version: '1.0'
+    description: Helper functions and classes for using CUPS
+  daemonize:
+    version: 2.5.0
+    description: Library to enable your code run as a daemon process on Unix-like
+      systems.
+  dbus-python:
+    version: 1.2.18
+    description: Python bindings for libdbus
+  defer:
+    version: 1.0.6
+    description: Simple framework for asynchronous programming
+  defusedxml:
+    version: 0.7.1
+    description: XML bomb protection for Python stdlib modules
+  distro:
+    version: 1.7.0
+    description: Distro - an OS platform information API
+  dnspython:
+    version: 2.1.0
+    description: DNS toolkit
+  docker:
+    version: 5.0.3
+    description: A Python library for the Docker Engine API.
+  docker-compose:
+    version: 1.29.2
+    description: Multi-container orchestration for Docker
+  dockerpty:
+    version: 0.4.1
+    description: Python library to use the pseudo-tty of a docker container
+  docopt:
+    version: 0.6.2
+    description: Pythonic argument parser, that will make you smile
+  duplicity:
+    version: 0.8.21
+    description: Encrypted backup using rsync algorithm
+  enrich:
+    version: 1.2.6
+    description: enrich
+  evdev:
+    version: 1.4.0
+    description: Bindings to the Linux input handling subsystem
+  fasteners:
+    version: 0.14.1
+    description: A python package that provides useful locks.
+  feedparser:
+    version: 6.0.8
+    description: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom
+      0.3, and Atom 1.0 feeds
+  filelock:
+    version: 3.6.0
+    description: A platform independent file lock.
+  Flask:
+    version: 2.0.1
+    description: A simple framework for building complex web applications.
+  future:
+    version: 0.18.2
+    description: Clean single-source support for Python 3 and 2
+  gcovr:
+    version: '5.0'
+    description: Generate C/C++ code coverage reports with gcov
+  gh:
+    version: 0.0.4
+    description: UNKNOWN
+  gitdb:
+    version: 4.0.10
+    description: Git Object Database
+  GitPython:
+    version: 3.1.31
+    description: GitPython is a Python library used to interact with Git repositories
+  Glances:
+    version: 3.2.4.2
+    description: A cross-platform curses-based monitoring tool
+  gpg:
+    version: 1.16.0-unknown
+    description: Python bindings to the GPGME API of the GnuPG cryptography library.
+  gramps:
+    version: 5.1.5
+    description: Gramps (Genealogical Research and Analysis Management Programming
+      System)
+  greenlet:
+    version: 1.1.2
+    description: Lightweight in-process concurrent programming
+  grip:
+    version: 4.6.1
+    description: Render local readme files before sending off to GitHub.
+  grpcio:
+    version: 1.30.2
+    description: HTTP/2-based RPC framework
+  gyp:
+    version: '0.1'
+    description: Generate Your Projects
+  html2text:
+    version: 2020.1.16
+    description: Turn HTML into equivalent Markdown-structured text.
+  html5-parser:
+    version: 0.4.10
+    description: Fast C based HTML 5 parsing for python
+  html5lib:
+    version: '1.1'
+    description: HTML parser based on the WHATWG HTML specification
+  httpie:
+    version: 2.6.0
+    description: 'HTTPie: command-line HTTP client for the API era.'
+  httplib2:
+    version: 0.20.2
+    description: A comprehensive HTTP client library.
+  idna:
+    version: '3.3'
+    description: Internationalized Domain Names in Applications (IDNA)
+  ifaddr:
+    version: 0.1.7
+    description: Cross-platform network interface and IP address enumeration library
+  IMDbPY:
+    version: 2021.4.18
+    description: Python package to access the IMDb's database
+  img2pdf:
+    version: 0.4.2
+    description: Convert images to PDF via direct JPEG inclusion.
+  importlib-metadata:
+    version: 4.6.4
+    description: Read metadata from Python packages
+  iotop:
+    version: '0.6'
+    description: Per process I/O bandwidth monitor
+  itsdangerous:
+    version: 2.1.0
+    description: Safely pass data to untrusted environments and back.
+  jeepney:
+    version: 0.7.1
+    description: Low-level, pure Python DBus protocol wrapper.
+  Jinja2:
+    version: 3.0.3
+    description: A very fast and expressive template engine.
+  jmespath:
+    version: 0.10.0
+    description: JSON Matching Expressions
+  jsonschema:
+    version: 3.2.0
+    description: An implementation of JSON Schema validation for Python
+  keyring:
+    version: 23.5.0
+    description: Store and access your passwords safely.
+  launchpadlib:
+    version: 1.10.16
+    description: Script Launchpad through its web services interfaces.  Officially
+      supported.
+  lazr.restfulclient:
+    version: 0.14.4
+    description: A programmable client library that takes advantage of the commonalities
+      among
+  lazr.uri:
+    version: 1.0.6
+    description: A self-contained, easily reusable library for parsing, manipulating,
+  lockfile:
+    version: 0.12.2
+    description: Platform-independent file locking module
+  louis:
+    version: 3.20.0
+    description: Python bindings for liblouis
+  lxml:
+    version: 4.8.0
+    description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+      with the ElementTree API.
+  macaroonbakery:
+    version: 1.3.1
+    description: A Python library port for bakery, higher level operation to work
+      with macaroons
+  Mako:
+    version: 1.1.3
+    description: A super-fast templating language that borrows the  best ideas from
+      the existing templating languages.
+  Markdown:
+    version: 3.3.6
+    description: Python implementation of Markdown.
+  MarkupSafe:
+    version: 2.0.1
+    description: Safely add untrusted strings to HTML/XML markup.
+  mechanize:
+    version: 0.4.7
+    description: Stateful programmatic web browsing.
+  meld:
+    version: 3.20.4
+    description: Visual diff and merge tool
+  monotonic:
+    version: '1.6'
+    description: An implementation of time.monotonic() for Python 2 & < 3.3
+  more-itertools:
+    version: 8.10.0
+    description: More routines for operating on iterables, beyond itertools
+  msgpack:
+    version: 1.0.3
+    description: MessagePack (de)serializer.
+  mutagen:
+    version: 1.46.0
+    description: read and write audio tags for many formats
+  nemo-emblems:
+    version: 5.6.0
+    description: Change your folder and file emblems
+  netaddr:
+    version: 0.8.0
+    description: A network address manipulation library for Python
+  netifaces:
+    version: 0.11.0
+    description: Portable network interface information.
+  networkx:
+    version: 2.8.7
+    description: Python package for creating and manipulating graphs and networks
+  notify2:
+    version: '0.3'
+    description: Python interface to DBus notifications
+  ntlm-auth:
+    version: 1.4.0
+    description: Creates NTLM authentication structures
+  numpy:
+    version: 1.21.5
+    description: NumPy is the fundamental package for array computing with Python.
+  oauthlib:
+    version: 3.2.0
+    description: A generic, spec-compliant, thorough implementation of the OAuth request-signing
+      logic
+  onboard:
+    version: 1.4.1
+    description: Simple On-screen Keyboard
+  packaging:
+    version: '21.3'
+    description: Core utilities for Python packages
+  PAM:
+    version: 0.4.2
+    description: Python bindings for PAM
+  path-and-address:
+    version: 2.0.1
+    description: Functions for server command-line arguments used by humans.
+  pathspec:
+    version: 0.9.0
+    description: Utility library for gitignore style pattern matching of file paths.
+  pbr:
+    version: 5.8.0
+    description: Python Build Reasonableness
+  pdfarranger:
+    version: 1.8.2
+    description: A simple application for PDF Merging, Rearranging, and Splitting
+  pexpect:
+    version: 4.8.0
+    description: Pexpect allows easy control of interactive console applications.
+  pikepdf:
+    version: 5.0.1+dfsg
+    description: Read and write PDFs with Python, powered by qpdf
+  Pillow:
+    version: 9.0.1
+    description: Python Imaging Library (Fork)
+  protobuf:
+    version: 3.12.4
+    description: Protocol Buffers
+  psutil:
+    version: 5.9.0
+    description: Cross-platform lib for process and system monitoring in Python.
+  ptyprocess:
+    version: 0.7.0
+    description: Run a subprocess in a pseudo terminal
+  py7zr:
+    version: 0.11.3+dfsg
+    description: Pure python 7-zip library
+  pycairo:
+    version: 1.20.1
+    description: Python interface for cairo
+  pychm:
+    version: 0.8.6
+    description: Python package to handle CHM files
+  pycryptodomex:
+    version: 3.11.0
+    description: Cryptographic library for Python
+  pycups:
+    version: 2.0.1
+    description: Python bindings for libcups
+  pycurl:
+    version: 7.44.1
+    description: PycURL -- A Python Interface To The cURL library
+  Pygments:
+    version: 2.11.2
+    description: Pygments is a syntax highlighting package written in Python.
+  PyGObject:
+    version: 3.42.1
+    description: Python bindings for GObject Introspection
+  pygraphviz:
+    version: '1.10'
+    description: Python interface to Graphviz
+  PyICU:
+    version: 2.8.1
+    description: Python extension wrapping the ICU C++ API
+  pyinotify:
+    version: 0.9.6
+    description: Linux filesystem events monitoring
+  PyJWT:
+    version: 2.3.0
+    description: JSON Web Token implementation in Python
+  pykerberos:
+    version: 1.1.14
+    description: High-level interface to Kerberos
+  pymacaroons:
+    version: 0.13.0
+    description: Macaroon library for Python
+  PyNaCl:
+    version: 1.5.0
+    description: Python binding to the Networking and Cryptography (NaCl) library
+  pynvim:
+    version: 0.4.2
+    description: Python client to neovim
+  pyparsing:
+    version: 2.4.7
+    description: Python parsing module
+  pyparted:
+    version: 3.11.7
+    description: Python bindings for GNU parted
+  PyQt5:
+    version: 5.15.6
+    description: Python bindings for the Qt cross platform application toolkit
+  PyQt5-sip:
+    version: 12.9.1
+    description: The sip module support for PyQt5
+  PyQtWebEngine:
+    version: 5.15.5
+    description: Python bindings for the Qt WebEngine framework
+  pyRFC3339:
+    version: '1.1'
+    description: Generate and parse RFC 3339 timestamps
+  pyrsistent:
+    version: 0.18.1
+    description: Persistent/Functional/Immutable data structures
+  PySocks:
+    version: 1.7.1
+    description: A Python SOCKS client module. See https://github.com/Anorov/PySocks
+      for more information.
+  python-apt:
+    version: 2.4.0+ubuntu1
+    description: Python bindings for APT
+  python-dateutil:
+    version: 2.8.1
+    description: Extensions to the standard Python datetime module
+  python-debian:
+    version: 0.1.43ubuntu1
+    description: Debian package related modules
+  python-dotenv:
+    version: 0.19.2
+    description: Read key-value pairs from a .env file and set them as environment
+      variables
+  python-gnupg:
+    version: 0.4.8
+    description: A wrapper for the Gnu Privacy Guard (GPG or GnuPG)
+  python-magic:
+    version: 0.4.24
+    description: File type identification using libmagic
+  python-xlib:
+    version: '0.29'
+    description: Python X Library
+  pytz:
+    version: '2022.1'
+    description: World timezone definitions, modern and historical
+  pyudev:
+    version: 0.22.0
+    description: A libudev binding
+  pywinrm:
+    version: 0.3.0
+    description: Python library for Windows Remote Management
+  pyxattr:
+    version: 0.7.2
+    description: Filesystem extended attributes for python
+  pyxdg:
+    version: '0.27'
+    description: PyXDG contains implementations of freedesktop.org standards in python.
+  PyYAML:
+    version: 5.4.1
+    description: YAML parser and emitter for Python
+  regex:
+    version: 2021.11.10
+    description: Alternative regular expression module, to replace re.
+  reportlab:
+    version: 3.6.8
+    description: The Reportlab Toolkit
+  repoze.lru:
+    version: '0.7'
+    description: A tiny LRU cache implementation and decorator
+  requests:
+    version: 2.25.1
+    description: Python HTTP for Humans.
+  requests-file:
+    version: 1.5.1
+    description: File transport adapter for Requests
+  requests-kerberos:
+    version: 0.12.0
+    description: A Kerberos authentication handler for python-requests
+  requests-ntlm:
+    version: 1.1.0
+    description: This package allows for HTTP NTLM authentication using the requests
+      library.
+  requests-toolbelt:
+    version: 0.9.1
+    description: A utility belt for advanced users of python-requests
+  requests-unixsocket:
+    version: 0.2.0
+    description: Use requests to talk HTTP via a UNIX domain socket
+  rich:
+    version: 11.2.0
+    description: Render rich text, tables, progress bars, syntax highlighting, markdown
+      and more to the terminal
+  Routes:
+    version: 2.5.1
+    description: Routing Recognition and Generation Tools
+  ruamel.yaml:
+    version: 0.17.16
+    description: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
+      of comments, seq/map flow style, and map key order
+  ruamel.yaml.clib:
+    version: 0.2.6
+    description: C version of reader, parser and emitter for ruamel.yaml derived from
+      libyaml
+  screen-resolution-extra:
+    version: 0.0.0
+    description: Extension for the GNOME Screen Resolution applet
+  SecretStorage:
+    version: 3.3.1
+    description: Python bindings to FreeDesktop.org Secret Service API
+  selinux:
+    version: '3.3'
+    description: SELinux python 3 bindings
+  sessioninstaller:
+    version: 0.0.0
+    description: APT based installer using PackageKit session DBus API
+  setproctitle:
+    version: 1.2.2
+    description: A Python module to customize the process title
+  sgmllib3k:
+    version: 1.0.0
+    description: Py3k port of sgmllib.
+  simplejson:
+    version: 3.17.6
+    description: Simple, fast, extensible JSON encoder/decoder for Python
+  six:
+    version: 1.16.0
+    description: Python 2 and 3 compatibility utilities
+  smmap:
+    version: 5.0.0
+    description: A pure Python implementation of a sliding window memory map manager
+  soupsieve:
+    version: 2.3.1
+    description: A modern CSS selector implementation for Beautiful Soup.
+  system-service:
+    version: '0.3'
+    description: UNKNOWN
+  systemd-python:
+    version: '234'
+    description: Python interface for libsystemd
+  tenacity:
+    version: 6.3.1
+    description: Retry code until it succeeds
+  texttable:
+    version: 1.6.4
+    description: module for creating simple ASCII tables
+  tinycss:
+    version: '0.4'
+    description: tinycss is a complete yet simple CSS parser for Python.
+  tldextract:
+    version: 3.1.2
+    description: Accurately separate the TLD from the registered domain and subdomains
+      of a URL, using the Public Suffix List. By default, this includes the public
+      ICANN TLDs and their exceptions. You can optionally support the Public Suffix
+      List's private domains as well.
+  toml:
+    version: 0.10.2
+    description: Python Library for Tom's Obvious, Minimal Language
+  trash-cli:
+    version: 0.17.1.14
+    description: Command line interface to FreeDesktop.org Trash.
+  ubuntu-advantage-tools:
+    version: '8001'
+    description: Manage Ubuntu Pro support entitlements
+  ubuntu-drivers-common:
+    version: 0.0.0
+    description: Detect and install additional Ubuntu driver packages
+  ufw:
+    version: 0.36.1
+    description: front-end for Linux firewalling
+  Unidecode:
+    version: 1.3.3
+    description: ASCII transliterations of Unicode text
+  urllib3:
+    version: 1.26.5
+    description: HTTP library with thread-safe connection pooling, file post, and
+      more.
+  vboxapi:
+    version: '1.0'
+    description: Python interface to VirtualBox
+  wadllib:
+    version: 1.3.6
+    description: Navigate HTTP resources using WADL files as guides.
+  wcmatch:
+    version: '8.3'
+    description: Wildcard/glob file name matcher.
+  webencodings:
+    version: 0.5.1
+    description: Character encoding aliases for legacy web content
+  websocket-client:
+    version: 1.2.3
+    description: WebSocket client for Python with low level API options
+  websockets:
+    version: '10.4'
+    description: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+  Werkzeug:
+    version: 2.0.2
+    description: The comprehensive WSGI web application library.
+  xdg:
+    version: '5'
+    description: wrapper for PyXDG to provide the API of xdg
+  xkit:
+    version: 0.0.0
+    description: library for the manipulation of the xorg.conf
+  xlrd:
+    version: 1.2.0
+    description: Library for developers to extract data from Microsoft Excel (tm)
+      spreadsheet files
+  xmltodict:
+    version: 0.12.0
+    description: Makes working with XML feel like you are working with JSON
+  yamllint:
+    version: 1.26.3
+    description: A linter for YAML files.
+  youtube-dl:
+    version: 2021.12.17
+    description: YouTube video downloader
+  yq:
+    version: 3.1.0
+    description: Command-line YAML/XML processor - jq wrapper for YAML/XML documents
+  yt-dlp:
+    version: 2023.3.4
+    description: A youtube-dl fork with additional features and patches
+  zeroconf:
+    version: 0.38.3
+    description: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi
+      compatible)
+  zipp:
+    version: 1.0.0
+    description: Backport of pathlib-compatible object wrapper for zip files
+snap:
+  atom:
+    description: A hackable text editor for the 21st Century.
+    url: https://snapcraft.io/atom
+    version: 1.60.0            (286) 298MB classic
+  bare:
+    description: Empty base snap, useful for testing and fully statically linked
+    url: https://snapcraft.io/bare
+    version: 1.0            (5) 4kB base
+  barrier:
+    description: Barrier - Share mouse and keyboard over the local network
+    url: https://snapcraft.io/barrier
+    version: 2.4.0-4-gac5a1bfd            (682) 57MB -
+  baugeschichte:
+    description: See images and the history of builings in a city
+    url: https://snapcraft.io/baugeschichte
+    version: 2.0.2.7            (12) 67MB -
+  blender:
+    description: Blender is the free and open source 3D creation suite.
+    url: https://snapcraft.io/blender
+    version: 3.5.0              (3486) 315MB classic
+  btop:
+    description: Resource monitor that shows usage and stats
+    url: https://snapcraft.io/btop
+    version: 1.2.13            (598) 1MB -
+  buka:
+    description: EBook Management and Reader
+    url: https://snapcraft.io/buka
+    version: 1.0.0            (2) 91MB -
+  chromium:
+    description: Chromium web browser, open-source version of Chrome
+    url: https://snapcraft.io/chromium
+    version: 111.0.5563.146            (2415) 155MB -
+  core:
+    description: snapd runtime environment
+    url: https://snapcraft.io/core
+    version: 16-2.58.3            (14946) 122MB core
+  core18:
+    description: Runtime environment based on Ubuntu 18.04
+    url: https://snapcraft.io/core18
+    version: 20230320            (2721) 58MB base
+  core20:
+    description: Runtime environment based on Ubuntu 20.04
+    url: https://snapcraft.io/core20
+    version: 20230308            (1852) 66MB base
+  core22:
+    description: Runtime environment based on Ubuntu 22.04
+    url: https://snapcraft.io/core22
+    version: 20230316            (583) 76MB base
+  cups:
+    description: The CUPS Snap - The Printing Stack for Linux
+    url: https://snapcraft.io/cups
+    version: 2.4.2-5            (872) 57MB -
+  discord:
+    description: All-in-one voice and text chat for gamers
+    url: https://snapcraft.io/discord
+    version: 0.0.25            (150) 85MB -
+  disk-space-saver:
+    description: Disk Space Analyzer that saves hundreds of gigabytes!
+    url: https://snapcraft.io/disk-space-saver
+    version: 2.6.1            (41) 81MB -
+  foliate:
+    description: A simple and modern eBook viewer
+    url: https://snapcraft.io/foliate
+    version: 2.6.3            (1167) 16MB -
+  fontpreview:
+    description: fontpreview lets you quickly search for fonts and preview them
+    url: https://snapcraft.io/fontpreview
+    version: 1.0.6             (56) 40MB -
+  fromscratch:
+    description: FromScratch
+    url: https://snapcraft.io/fromscratch
+    version: 1.4.3            (4) 128MB -
+  gitter-desktop:
+    description: Where developers come to talk
+    url: https://snapcraft.io/gitter-desktop
+    version: 5.0.1            (107) 112MB -
+  gnome-3-26-1604:
+    description: Shared GNOME 3.26 runtime for Ubuntu 16.04 base
+    url: https://snapcraft.io/gnome-3-26-1604
+    version: 3.26.0.20210629            (104) 147MB -
+  gnome-3-28-1804:
+    description: Shared GNOME 3.28 runtime for Ubuntu 18.04
+    url: https://snapcraft.io/gnome-3-28-1804
+    version: 3.28.0-19-g98f9e67.98f9e67            (161) 172MB -
+  gnome-3-34-1804:
+    description: Shared GNOME 3.34 Ubuntu stack
+    url: https://snapcraft.io/gnome-3-34-1804
+    version: 0+git.3556cb3            (77) 229MB -
+  gnome-3-38-2004:
+    description: Shared GNOME 3.38 Ubuntu stack
+    url: https://snapcraft.io/gnome-3-38-2004
+    version: 0+git.6f39565            (137) 366MB -
+  gnome-42-2204:
+    description: Shared GNOME 42 Ubuntu stack
+    url: https://snapcraft.io/gnome-42-2204
+    version: 0+git.09673a5            (65) 482MB -
+  gotop:
+    description: A top like command line tool with Terminal UI
+    url: https://snapcraft.io/gotop
+    version: 0.1.1            (3) 2MB -
+  gtk-common-themes:
+    description: All the (common) themes
+    url: https://snapcraft.io/gtk-common-themes
+    version: 0.1-81-g442e511            (1535) 96MB -
+  kanagame:
+    description: A simple flashcard based game for learning kana.
+    url: https://snapcraft.io/kanagame
+    version: 0.2            (21) 109MB -
+  kde-frameworks-5-core18:
+    description: KDE Frameworks 5
+    url: https://snapcraft.io/kde-frameworks-5-core18
+    version: 5.67.0            (35) 303MB -
+  kde-frameworks-5-qt-5-14-core18:
+    description: KDE Frameworks 5
+    url: https://snapcraft.io/kde-frameworks-5-qt-5-14-core18
+    version: 5.68.0            (4) 304MB -
+  kotlin:
+    description: Command line Kotlin compiler
+    url: https://snapcraft.io/kotlin
+    version: 1.7.21            (73) 121MB classic
+  pdfmixtool:
+    description: An application to perform common editing operations on PDF files
+    url: https://snapcraft.io/pdfmixtool
+    version: 1.0.1            (864)   9MB -
+  pdftk:
+    description: command-line tool for working with PDF files
+    url: https://snapcraft.io/pdftk
+    version: 2.02-4             (9) 18MB -
+  peruse:
+    description: Comic Book Reader
+    url: https://snapcraft.io/peruse
+    version: 1.2                       (13) 512kB -
+  pycharm-educational:
+    description: Easy and Professional Tool to Learn & Teach Programming with Python
+    url: https://snapcraft.io/pycharm-educational
+    version: 2022.2.2            (57) 572MB classic
+  qt551:
+    description: Qt 5 full runtime stack content snap from official core18 repos
+    url: https://snapcraft.io/qt551
+    version: 5.x-core18            (42) 271MB -
+  qt5-core20:
+    description: Qt5 runtime for core20
+    url: https://snapcraft.io/qt5-core20
+    version: 20.04            (15) 316MB -
+  qt5-core22:
+    description: Qt5 runtime for core22
+    url: https://snapcraft.io/qt5-core22
+    version: 22.04            (4) 223MB -
+  remarkable:
+    description: Remarkable editor
+    url: https://snapcraft.io/remarkable
+    version: 0+git.6f21d49            (5) 125MB -
+  remmina:
+    description: Remote Desktop Client
+    url: https://snapcraft.io/remmina
+    version: v1.4.29                            (5597) 160MB -
+  rpi-imager:
+    description: Raspberry Pi Imager
+    url: https://snapcraft.io/rpi-imager
+    version: 1.7.3            (371) 215MB -
+  scc:
+    description: scc is a very fast & accurate code counter counting lines of code
+      by
+    url: https://snapcraft.io/scc
+    version: v3.1.0            (17) 1MB -
+  skype:
+    description: One Skype for all your devices. New features. New look. All Skype.
+    url: https://snapcraft.io/skype
+    version: 8.96.0.207             (263) 146MB -
+  snap-store:
+    description: Snap Store is a graphical desktop application for discovering,
+    url: https://snapcraft.io/snap-store
+    version: 41.3-66-gfe1e325            (638) 48MB -
+  stellarium-plars:
+    description: Free, open source planetarium software
+    url: https://snapcraft.io/stellarium-plars
+    version: 0.21.0            (101) 324MB -
+  sublime-text:
+    description: A sophisticated text editor for code, markup and prose.
+    url: https://snapcraft.io/sublime-text
+    version: 4143            (118) 68MB classic
+  sweethome3d-homedesign:
+    description: An interior design application to draw house plans & arrange
+    url: https://snapcraft.io/sweethome3d-homedesign
+    version: 6.6            (15) 140MB -
+  syncthing:
+    description: Open Source Continuous File Synchronization
+    url: https://snapcraft.io/syncthing
+    version: 1.4.2            (501) 7MB -
+  taskbook:
+    description: Tasks, boards & notes for the command-line habitat
+    url: https://snapcraft.io/taskbook
+    version: 0.3.0            (23) 27MB -
+  tor:
+    description: Anonymising TCP overlay network
+    version: 0.2.9.17 (2) 6MB -
+  wavebox:
+    description: Wavebox
+    url: https://snapcraft.io/wavebox
+    version: 4.11.11            (193) 162MB -
+  wekan:
+    description: The open-source kanban
+    url: https://snapcraft.io/wekan
+    version: 6.09            (1999) 167MB -
+  wonderwall:
+    description: Powerful Desktop Wallpaper manager for Linux Desktop
+    url: https://snapcraft.io/wonderwall
+    version: 7            (39) 2MB -
+  youtube-dl:
+    description: Download videos from youtube.com or other video platforms
+    url: https://snapcraft.io/youtube-dl
+    version: 2021.12.17+git01bf89e            (4806) 97MB -
+  zenkit:
+    description: Track projects, organize collections, or brainstorm new ideas with
+    url: https://snapcraft.io/zenkit
+    version: 2.1.8            (17) 65MB -

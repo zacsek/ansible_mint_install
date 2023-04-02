@@ -1,0 +1,39 @@
+---
+- name: Configure Razer Blade laptop
+  hosts: all
+  gather_facts: no
+  become: yes
+
+  vars_files:
+    - packages.yaml
+
+  pre_tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: true
+        cache_valid_time: 3600
+      register: apt_update_result
+      ignore_errors: yes
+
+    - name: Check for apt update timeout
+      ansible.builtin.fail:
+        msg: "Apt update failed. Timeout reached."
+      when: apt_update_result.failed and 'Timeout' in apt_update_result.msg
+
+
+  roles:
+    - role: install_apt
+      vars:
+        packages_by_sections: "{{ apt }}"
+      tags: ['apt']
+    - role: install_ppa
+      vars:
+        ppas: "{{ ppa }}"
+      tags: ['ppa']
+
+  #tasks:
+    #- name: Print all available variables
+      #debug:
+        #msg: "{{ apt }}"
+        #var: vars | dict2items | map(attribute='key') | list
+        #var: hostvars[inventory_hostname]

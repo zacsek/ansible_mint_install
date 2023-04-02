@@ -1,0 +1,11 @@
+---
+- name: Install packages from each section
+  include_tasks: install_packages.yaml
+  loop: "{{ packages_by_sections | dict2items }}"
+  loop_control:
+    loop_var: section
+  vars:
+    section_name: "{{ section.key }}"
+    section_content: "{{ section.value }}"
+  when: section_name not in exclude_sections
+

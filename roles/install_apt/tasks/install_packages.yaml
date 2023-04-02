@@ -1,8 +1,5 @@
 ---
-
 - name: Iterate over section
-  #debug:
-    #msg: "Installing: {{ section_name }} / {{ package_name }} : {{ package_info.description }}"
   apt:
     name: "{{ package_name }}"
     state: present

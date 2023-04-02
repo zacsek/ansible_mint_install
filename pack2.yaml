@@ -1,0 +1,75 @@
+---
+apt:
+  admin:
+    ansible:
+      section: admin
+      origin: Ubuntu:22.04/jammy [all]
+      version: 2.10.7+merged+base+2.10.8+dfsg-1
+      dependants_count: '1'
+      description: Configuration management, deployment, and task execution system
+    cockpit:
+      section: admin
+      origin: Ubuntu:22.04/jammy-updates [all]
+      version: 264-1ubuntu0.22.04.1
+      dependants_count: '0'
+      description: Web Console for Linux servers
+  brother: {}
+  devel:
+    adb:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1:10.0.0+r36-9
+      dependants_count: '1'
+      description: Android Debug Bridge
+    astyle:
+      section: devel
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 3.1-2build1
+      dependants_count: '0'
+      description: Source code indenter for C, C++, Objective-C, C#, and Java
+  net:
+    autossh:
+      section: net
+      origin: Ubuntu:22.04/jammy [amd64]
+      version: 1.4g-1
+      dependants_count: '0'
+      description: Automatically restart SSH sessions and tunnels
+ppa:
+  neovim:
+    section: editors
+    origin: Neovim Unstable:22.04/jammy [amd64]
+    version: 0.9.0~ubuntu1+git202303312025-83bfd94d1-333b5866f-313b5873c~ubuntu22.04.1
+    dependants_count: '1'
+    description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+    source: ppa:neovim-ppa/unstable
+  lutris:
+    section: games
+    origin: lutris:22.04/jammy [all]
+    version: 0.5.12~ubuntu22.04.1
+    dependants_count: '0'
+    description: video game preservation platform
+    source: ppa:lutris-team/lutris
+3rd_party:
+  docker-containerd:
+    section: admin
+    origin: "(installed locally)"
+    version: 0.2.3+git+docker1.13.1~ds1-1
+    dependants_count: '0'
+    description: daemon to control runC (Docker's version)
+    source: "/var/lib/dpkg/status"
+flatpak:
+  Amberol:
+    version: 0.9.2
+    app_id: io.bassi.Amberol
+    description: Plays music, and nothing else
+  mpv:
+    version: 0.35.1
+    app_id: io.mpv.Mpv
+    description: A free, open source, and cross-platform media player
+gems:
+  amazing_print:
+    version: 1.4.0
+    description: Pretty print Ruby objects with proper indentation and colors
+  ast:
+    version: 2.4.2
+    description: A library for working with Abstract Syntax Trees.
