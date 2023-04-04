@@ -1,0 +1,15 @@
+Tilix - dropdown terminal
+alacritty
+noson
+keepassxc
+warpinator
+steam
+sublimetext
+filezilla
+chrome
+copyQ
+dropbox
+
+
+
+audio: simultaneous output
