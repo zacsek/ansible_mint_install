@@ -1,7 +1,7 @@
 ---
 - name: Configure Razer Blade laptop
   hosts: all
-  gather_facts: no
+  gather_facts: yes
   become: yes
 
   vars_files:
@@ -30,6 +30,19 @@
       vars:
         ppas: "{{ ppa }}"
       tags: ['ppa']
+    - role: install_pip
+      vars:
+        pips: "{{ pip }}"
+      tags: ['pip']
+    - role: install_docker
+      vars:
+        docker_images:
+          - portainer/portainer-ce
+          - ubuntu
+      tags: ['docker']
+    - role: geerlingguy.swap
+      vars:
+        swap_file_size_mb: '10240'
 
   #tasks:
     #- name: Print all available variables

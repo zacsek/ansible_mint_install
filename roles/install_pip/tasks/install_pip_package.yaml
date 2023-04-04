@@ -1,0 +1,8 @@
+---
+- name: Installing PIP package
+  debug:
+    msg: "Installing PIP package: {{ pip_name }}"
+
+- pip:
+    name: "{{ pip_name }}"
+    #user: yes

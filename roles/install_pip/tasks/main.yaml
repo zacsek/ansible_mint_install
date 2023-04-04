@@ -1,0 +1,11 @@
+---
+- name: Install pip for Python 3
+  raw: curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && python3 /tmp/get-pip.py --user
+
+- name: Install PIP packages
+  include_tasks: install_pip_package.yaml
+  loop: "{{ pips | dict2items }}"
+  loop_control:
+    loop_var: pip_var
+  vars:
+    pip_name:   "{{ pip_var.key }}"
