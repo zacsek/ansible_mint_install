@@ -43,6 +43,9 @@
     - role: geerlingguy.swap
       vars:
         swap_file_size_mb: '10240'
+      tags: ['swap']
+    - role: dotfiles
+      tags: ['dotfiles']
 
   #tasks:
     #- name: Print all available variables
