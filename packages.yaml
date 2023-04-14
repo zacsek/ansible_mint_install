@@ -1263,34 +1263,6 @@ ppa:
     dependants_count: '0'
     description: GPU-accelerated terminal emulator
     source: ppa:aslatter/ppa
-  conky-manager:
-    section: utils
-    origin: Conky Manager for Peppermint 9:18.04/bionic [amd64]
-    version: 2.4~136~ubuntu16.04.1
-    dependants_count: '0'
-    description: Utility for managing Conky configuration files
-    source: ppa:mark-pcnetspec/conky-manager-pm9
-  woeusb:
-    section: utils
-    origin: WebUpd8:20.04/focal [amd64]
-    version: 3.3.1-1~webupd8~focal0
-    dependants_count: '0'
-    description: Bootable Windows installation/PE USB storage creator
-    source: ppa:nilarimogard/webupd8
-  zeal:
-    section: utils
-    origin: Zeal:18.04/bionic [amd64]
-    version: 1:0.6.1-3ppa1~bionic1
-    dependants_count: '0'
-    description: Simple offline API documentation browser
-    source: ppa:zeal-developers/ppa
-  mpv:
-    section: video
-    origin: Mpv media player (FFmpeg version):20.04/focal [amd64]
-    version: 2:0.33.0~focal1
-    dependants_count: '0'
-    description: mplayer/mplayer2 based video player
-    source: ppa:mc3man/mpv-tests
   papirus-icon-theme:
     section: x11
     origin: papirus:22.04/jammy [all]
