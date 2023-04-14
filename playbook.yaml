@@ -8,6 +8,10 @@
     - packages.yaml
 
   pre_tasks:
+    - name: Parse OS-release
+      set_fact:
+        ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
+
     - name: Update apt cache
       apt:
         update_cache: true

@@ -5,4 +5,5 @@
 
 - apt_repository:
     repo: "{{ ppa_source }}"
+    codename: "{{ ubuntu_codename }}"
     state: present
