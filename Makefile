@@ -11,3 +11,5 @@ run-dry:
 	ansible-playbook -i inventory.ini playbook.yaml --check
 run:
 	ansible-playbook -i inventory.ini playbook.yaml
+requirements:
+        yq -e '.pip | to_entries | .[].key' packages.yaml > requirements.txt
