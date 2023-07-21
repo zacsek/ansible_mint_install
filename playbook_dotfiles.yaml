@@ -1,0 +1,28 @@
+---
+- name: Configure dotfiles
+  hosts: all
+  gather_facts: true
+  become: true
+
+  vars:
+    ppa:
+      neovim:
+        section: editors
+        origin: Neovim Unstable:22.04/jammy [amd64]
+        version: 0.9.0~ubuntu1+git202303312025-83bfd94d1-333b5866f-313b5873c~ubuntu22.04.1
+        dependants_count: '1'
+        description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+        source: ppa:neovim-ppa/unstable
+
+  pre_tasks:
+    - name: Parse OS-release
+      set_fact:
+        ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
+
+  roles:
+    - role: install_ppa
+      vars:
+        ppas: "{{ ppa }}"
+      tags: ['ppa']
+    - role: dotfiles
+      tags: ['dotfiles']

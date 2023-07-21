@@ -3,6 +3,7 @@
   apt:
     name: "{{ package_name }}"
     state: present
+  ignore_errors: true
   loop: "{{ section_content | dict2items }}"
   loop_control:
     loop_var: package

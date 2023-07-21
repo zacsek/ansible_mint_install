@@ -1,23 +1,26 @@
 ---
 - name: Configure Razer Blade laptop
   hosts: all
-  gather_facts: yes
-  become: yes
+  gather_facts: true
+  become: true
 
   vars_files:
     - packages.yaml
 
   pre_tasks:
-    - name: Parse OS-release
+    #- name: Parse OS-release
+      #set_fact:
+        #ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
+    - name: Set ansible_python_interpreter to pipx
       set_fact:
-        ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
+        ansible_python_interpreter: "{{ lookup('env', 'HOME') }}/.asdf/shims/pip"
 
     - name: Update apt cache
       apt:
         update_cache: true
         cache_valid_time: 3600
       register: apt_update_result
-      ignore_errors: yes
+      ignore_errors: true
 
     - name: Check for apt update timeout
       ansible.builtin.fail:
@@ -38,11 +41,7 @@
       vars:
         pips: "{{ pip }}"
       tags: ['pip']
-    - role: install_docker
-      vars:
-        docker_images:
-          - portainer/portainer-ce
-          - ubuntu
+    - role: ansible-role-docker
       tags: ['docker']
     - role: geerlingguy.swap
       vars:

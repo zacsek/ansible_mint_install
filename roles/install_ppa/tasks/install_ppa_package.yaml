@@ -6,3 +6,4 @@
 - apt:
     name: "{{ ppa_name }}"
     state: present
+    ignore_errors: yes

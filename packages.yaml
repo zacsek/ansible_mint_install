@@ -13,12 +13,6 @@ apt:
       version: 0.6-24-g733f3f8-1.1build2
       dependants_count: '0'
       description: simple top-like I/O monitor
-    mint-backgrounds-ulyana:
-      section: admin
-      origin: linuxmint:21.1/vera [all]
-      version: '1.1'
-      dependants_count: '0'
-      description: The desktop backgrounds for Linux Mint 20 Ulyana
     nvidia-prime:
       section: admin
       origin: Ubuntu:22.04/jammy [all]
