@@ -1,30 +1,6 @@
 ---
-- name: Update apt cache
-  apt:
-    update_cache: true
-    cache_valid_time: 3600
-  register: apt_update_result
-  ignore_errors: true
-
-- name: Check for apt update timeout
-  ansible.builtin.fail:
-    msg: "Apt update failed. Timeout reached."
-  when: apt_update_result.failed and 'Timeout' in apt_update_result.msg
-
 - name: Install prerequisites
-  apt:
-    name:
-      - stow
-      - exa
-      - ripgrep
-      - bat
-      - git
-      - gh
-      - zoxide
-      - vim
-      - neovim
-    state: present
-    ignore_errors: true
+  include_tasks: install_prerequisites.yaml
 
 - name: Clone github repo
   git:
