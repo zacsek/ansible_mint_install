@@ -4,13 +4,14 @@
   gather_facts: true
   become: true
 
+  vars_files:
+    - dotfile_packages.yaml
+
   vars:
     ppa:
       neovim:
         section: editors
         origin: Neovim Unstable:22.04/jammy [amd64]
-        version: 0.9.0~ubuntu1+git202303312025-83bfd94d1-333b5866f-313b5873c~ubuntu22.04.1
-        dependants_count: '1'
         description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
         source: ppa:neovim-ppa/unstable
 
@@ -20,9 +21,16 @@
         ubuntu_codename: "{{ lookup('ini', 'UBUNTU_CODENAME type=properties file=/etc/os-release') }}"
 
   roles:
+    - role: install_apt
+      vars:
+        packages_by_sections: "{{ apt }}"
     - role: install_ppa
       vars:
         ppas: "{{ ppa }}"
       tags: ['ppa']
+    - role: install_font
+      vars:
+        font_url: "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip"
+        font_name: "Hack"
     - role: dotfiles
       tags: ['dotfiles']

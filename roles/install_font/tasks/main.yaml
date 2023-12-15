@@ -1,0 +1,23 @@
+---
+- hosts: all
+  tasks:
+    - name: Create a directory for the font
+      file:
+        path: "~/.local/share/fonts"
+        state: directory
+        mode: '0755'
+
+    - name: Download Font
+      get_url:
+        url: "{{ font_url }}"
+        dest: "/tmp/{{ font_name }}.zip"
+
+    - name: Unarchive Nerd Font
+      unarchive:
+        src: "/tmp/{{ font_name }}.zip"
+        dest: "~/.local/share/fonts"
+        remote_src: yes
+
+    - name: Update font cache
+      shell: fc-cache -fv
+      become: true
